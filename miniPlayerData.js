@@ -1,15 +1,15 @@
 klynt.miniPlayerData = {
-    "launchAppWording": "Then Launch Project",
-    "thanksForWatchingWording": "Thanks for watching!",
+    "downloadAppWording": "Download App",
+    "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
     "resumePlaybackWording": "Resume playback?",
     "fullscreenInfoWording": "This program will launch in fullscreen",
     "yesWording": "Yes",
-    "title": "Prova Quiz",
+    "title": "Visioni Future",
+    "thanksForWatchingWording": "Thanks for watching!",
     "noWording": "No",
     "analyticsKey": "",
-    "thumbnail": "Medias/Photos/yt_logo_rgb_dark.png",
     "redirectToMobileApp": "auto",
-    "downloadAppWording": "Download App",
+    "launchAppWording": "Then Launch Project",
     "url": "",
-    "description": ""
+    "description": "YouTube"
 }

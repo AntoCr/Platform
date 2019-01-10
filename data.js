@@ -1,42 +1,4063 @@
 klynt.data = {
+    "footer": {
+        "height": 26,
+        "logo": {
+            "url": "http://www.klynt.net",
+            "tooltip": "null",
+            "image": null
+        },
+        "items": [
+            {
+                "label": "Credits",
+                "action": {
+                    "type": "openWidget",
+                    "target": "57EE3BB5-DFB6-51C3-C77B-F0E7CE7B541B"
+                }
+            }
+        ],
+        "buttons": [
+            {
+                "type": "share",
+                "label": "Share",
+                "icon": "share"
+            },
+            {
+                "type": "sound",
+                "label": "Sound",
+                "icon": "sound"
+            },
+            {
+                "type": "fullscreen",
+                "label": "Fullscreen",
+                "icon": "fullscreen"
+            },
+            {
+                "type": "klynt",
+                "label": "Made with",
+                "icon": "klynt"
+            }
+        ]
+    },
+    "advanced": {
+        "enableSwipeNavigation": true,
+        "enableFullWindowMode": true,
+        "remoteVideosAPILocalBitrate": "best",
+        "hasRemoteVideos": false,
+        "enableKeyboardNavigation": true,
+        "remoteVideosAPIURL": "http://api.klynt.net/video/klynt-video-api.php",
+        "enableScrollNavigation": true
+    },
+    "mainSequence": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
+    "miniPlayer": {
+        "downloadAppWording": "Download App",
+        "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+        "resumePlaybackWording": "Resume playback?",
+        "fullscreenInfoWording": "This program will launch in fullscreen",
+        "yesWording": "Yes",
+        "title": "Visioni Future",
+        "thanksForWatchingWording": "Thanks for watching!",
+        "noWording": "No",
+        "analyticsKey": "",
+        "redirectToMobileApp": "auto",
+        "launchAppWording": "Then Launch Project",
+        "url": "",
+        "description": "YouTube"
+    },
+    "watermark": {
+        "displayOnStartSequence": true,
+        "position": "top-left",
+        "image": "Player/css/editor/img/watermark.png",
+        "enabled": false,
+        "action": {
+            "type": "openSequence",
+            "target": "null"
+        }
+    },
+    "sequences": {
+        "AF881154-2C53-C884-9EEA-2E7CB1684D4C": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/youtubeVeroRisorsa_5.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore vero/falso 1 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "F0165A06-13E7-B959-998C-332B0CCAE565",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 123.55,
+            "size": "medium",
+            "y": 941.15,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-188.96",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\">Oops... Risposta Sbagliata... Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "53.50",
+                    "width": "730.00",
+                    "height": "50.00",
+                    "id": "0A7A542C-9D05-26C6-9F51-2E7CB16A6E70",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "12.56",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\">Nell&rsquo;articolo 7.5 delle \"Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo; si possono trovare le informazioni&nbsp;relative alle revisioni e audits:</span></p>\n<p><br /><span style=\"color: #666666;\">\"7. Sicurezza dei Dati<br />[&hellip;]<br />7.5 Revisioni e Audits del Rispetto degli obblighi.<br />7.5.1 Revisione della Documentazione sulla Sicurezza. Al fine di dimostrare il rispetto da parte di Google degli obblighi&nbsp;previsti dalle presenti Condizioni per il Trattamento dei Dati, Google metter&agrave; la Documentazione sulla Sicurezza a&nbsp;disposizione del Cliente per una sua revisione.7.5.2 Diritti di Verifica del Cliente.<br />(a) Google consente al Cliente o ad un auditor terzo nominato dal Cliente di condurre audits (comprese delle ispezioni) per&nbsp;verificare li rispetto da parte di Google dei suoi obblighi previsti dalle presenti Condizioni per il Trattamento dei Dati in&nbsp;conformit&agrave; con la Sezione 7.5.3 (Condizioni Commerciali Aggiuntive in caso di Audit). Google contribuisce a tali attivit&agrave; di&nbsp;verifica come descritto nella Sezione 7.4 (Certificazione sulla Sicurezza) ed in questa Sezione 7.5 (Revisioni e Audits del&nbsp;Rispetto degli Obblighi).<br />[&hellip;]</span><span class=\"Apple-style-span\" style=\"color: rgb(102, 102, 102); \">\"</span></p>\n<p><span style=\"color: #666666;\">&nbsp;</span></p>\n<p><span style=\"color: #666666;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:29.31",
+                    "centerX": "64.64",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "D2C52F73-928A-53EC-198F-2E7CB16AC7FA",
+                    "databegin": "00:01.69"
+                }
+            ],
+            "id": "AF881154-2C53-C884-9EEA-2E7CB1684D4C",
+            "buttons": [
+                {
+                    "centerY": "215.93",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E50C8990-D894-99B0-91B9-F104B4169797",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "479282A2-62DC-92B5-1D27-332CD302C519",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:27.06",
+                    "centerX": "338.27",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "393BB457-A327-0950-7AEC-332BC6BC9EE0",
+                    "databegin": "00:03.94"
+                }
+            ]
+        },
+        "2957910C-27EC-5A9F-1548-F113D24BB74B": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/youtubeVeroRisorsa_5.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Hai vinto",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "A79ACC95-3F24-36CB-78CD-36DEDA933F2F",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 992.5333333333334,
+            "size": "large",
+            "y": 373.3,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-23.27",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-1",
+                    "text": "<p><span style=\"color: #666666;\">Complimenti</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "0.00",
+                    "width": "613.75",
+                    "height": "160.84",
+                    "id": "70A66935-0EBB-F70C-14BF-F1174FB201E7",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "2957910C-27EC-5A9F-1548-F113D24BB74B"
+        },
+        "BF5A8D30-7A1C-A2A3-B3E7-33572E3DEDE4": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore 4.2",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "A2EEBDA3-FF1E-89DF-CB1C-33572E3DACD2",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 972.1,
+            "size": "medium",
+            "y": 1292.75,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "AB5C78B1-7D15-A193-3178-33572E3E017D",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.11",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Le informazioni riguardanti l&rsquo;accettazione dei termini sono contenute nell&rsquo;articolo 2 dei &ldquo;Termini di Servizio&rdquo; di YouTube:</span></span></p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\"><br />\"2. Accettazione dei Termini<br />2.1 Prima di poter usare il Servizio, l'utente dovr&agrave; accettare i Termini. Il Servizio pu&ograve; essere utilizzato solo previa accettazione dei Termini.<br />2.2 I Termini potranno essere accettati semplicemente utilizzando il Servizio. L'utente riconosce e accetta che YouTube considerer&agrave; l'uso del Servizio da parte sua come accettazione&nbsp;dei Termini da quel momento in poi.<br />2.3 Non potranno utilizzare il Servizio ed accettare i Termini gli utenti: (a) che non abbiano l'et&agrave; prevista dalla legge per stipulare un contratto con YouTube, o (b) ai quali sia vietato o in&nbsp;altro modo legalmente inibito utilizzare o ricevere il Servizio ai sensi della legge italiana nonch&eacute; delle leggi del paese in cui sono residenti o da cui accedono o utilizzano il Servizio.<br />2.4 Consigliamo di stampare o salvare una copia dei Termini per il proprio archivio.\"</span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></span></span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.58",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "1EC1BE9C-ED12-C1A4-FBB6-33572E3FD336",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "BF5A8D30-7A1C-A2A3-B3E7-33572E3DEDE4",
+            "buttons": [
+                {
+                    "centerY": "214.55",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E00CADDA-C37A-83AA-5AAD-321CEB5587CD",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "55E68057-C8AD-62B5-D5CC-339DE86A83E0",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:28.92",
+                    "centerX": "264.24",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "69B36197-4B54-DAA8-FB76-33572E40ABBA",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "DA2CF51B-B7A4-4B48-8685-335754F271F5": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore 4.3",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "68A301DA-0179-C736-A3E2-335754F3E84F",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1162.7,
+            "size": "medium",
+            "y": 1295.35,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "E8325E29-44FD-250D-EC4C-335754F3AF62",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.11",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Le informazioni riguardanti l&rsquo;accettazione dei termini sono contenute nell&rsquo;articolo 2 dei &ldquo;Termini di Servizio&rdquo; di YouTube:</span></span></p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\"><br />\"2. Accettazione dei Termini<br />2.1 Prima di poter usare il Servizio, l'utente dovr&agrave; accettare i Termini. Il Servizio pu&ograve; essere utilizzato solo previa accettazione dei Termini.<br />2.2 I Termini potranno essere accettati semplicemente utilizzando il Servizio. L'utente riconosce e accetta che YouTube considerer&agrave; l'uso del Servizio da parte sua come accettazione&nbsp;dei Termini da quel momento in poi.<br />2.3 Non potranno utilizzare il Servizio ed accettare i Termini gli utenti: (a) che non abbiano l'et&agrave; prevista dalla legge per stipulare un contratto con YouTube, o (b) ai quali sia vietato o in&nbsp;altro modo legalmente inibito utilizzare o ricevere il Servizio ai sensi della legge italiana nonch&eacute; delle leggi del paese in cui sono residenti o da cui accedono o utilizzano il Servizio.<br />2.4 Consigliamo di stampare o salvare una copia dei Termini per il proprio archivio.\"</span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></span></span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.58",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "97D99A2D-1CB6-161C-C22D-335754F4CF15",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "DA2CF51B-B7A4-4B48-8685-335754F271F5",
+            "buttons": [
+                {
+                    "centerY": "155.50",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E00CADDA-C37A-83AA-5AAD-321CEB5587CD",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "C6ADC530-F081-8A46-8756-339E18456884",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": false,
+                    "duration": "00:28.92",
+                    "centerX": "191.52",
+                    "width": "160.00",
+                    "height": "40.00",
+                    "label": "Riprova",
+                    "id": "AEF863F6-7565-8B6A-B163-335754F4B3B8",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Quiz 1 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "E7D03E5C-2CCD-6F63-92FF-32ED4ED1DB03",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 367,
+            "size": "medium",
+            "y": -74.75,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-21.96",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-family: Roboto; color: #666666;\">&nbsp;<span class=\"Apple-style-span\" style=\"line-height: 26px; font-size: 13pt;\">C. Una licenza per il mondo intero non esclusiva, gratuita e trasferibile che permette di riprodurre e distribuire tali Contenuti (Corretta)</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "279.96",
+                    "width": "375.62",
+                    "height": "109.99",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "A7A855F5-735D-00FE-DAC3-3210708FEFF7",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "A9BABA31-4B6A-82A5-38B8-321A0F3877C3",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "8D916797-FC41-A529-4663-F0F2F7D065F8",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "117.52",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 13pt; font-family: Roboto; color: #666666;\">B. Una licenza di marchi territoriale, con la quale si possono limitare i luoghi nei quali concedere la licenza</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.43",
+                    "centerX": "-116.64",
+                    "width": "381.19",
+                    "height": "109.99",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "ADDFD97B-BB1A-0EB9-E502-290116C14394",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "0F6601C7-C43F-2F14-5236-290116BF181F",
+                    "databegin": "00:02.57"
+                },
+                {
+                    "centerY": "118.60",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 13pt; font-family: Roboto; color: #666666;\">D. Una licenza esclusiva totale</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 3,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:29.03",
+                    "centerX": "282.44",
+                    "width": "372.47",
+                    "height": "109.99",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "27A1B11E-0035-ED6F-6582-0A89BF114A34",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "F296B93F-4A91-042F-6DBE-F0F3CD415509",
+                    "databegin": "00:01.97"
+                },
+                {
+                    "centerY": "-21.95",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 13pt; color: #666666; font-family: Roboto;\">A. Una licenza esclusiva parziale riguardante solamente un certo tipo di Contenuti</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 4,
+                    "click": [
+                        {
+                            "value": "rgba(255,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "-117.68",
+                    "width": "372.47",
+                    "height": "109.99",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "7DDA84D7-0E25-927A-EEED-2901DCCDB6B2",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "75D3E5EA-A502-1FBB-E62E-2901DCCD28D4",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "-163.70",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666;\"><span style=\"font-size: 15pt;\">L'utente detiene tutti i diritti di propriet&agrave; sui propri Contenuti, ma deve concedere diritti limitati di</span>&nbsp;<span style=\"font-size: 15pt;\">licenza a YouTube e agli altri utenti del Servizio. Quando l'utente carica o pubblica Contenuti su</span>&nbsp;</span><span style=\"font-size: 15pt;\"><span style=\"color: #666666;\">YouTube, concede alla piattaforma</span>:</span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 5,
+                    "scales": true,
+                    "duration": "00:29.57",
+                    "centerX": "84.76",
+                    "width": "777.43",
+                    "height": "99.26",
+                    "id": "3E56CC0A-4641-E757-24FD-F0F1D940557F",
+                    "databegin": "00:01.43"
+                },
+                {
+                    "centerY": "-255.02",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666; font-size: 13pt;\"><span class=\"Apple-style-span\" style=\"line-height: 24px;\">Scegli la risposta corretta:</span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 6,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "-120.34",
+                    "width": "256.03",
+                    "height": "49.82",
+                    "id": "6C128B29-09EF-63F8-5EC6-F0EF3AFA2445",
+                    "databegin": "00:01.00"
+                }
+            ],
+            "id": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3"
+        },
+        "5C36ACDD-7702-F3D8-DCCF-3330F20936C8": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/youtubeVeroRisorsa_5.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore vero/falso 3 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "74DB42DB-67DC-73E1-E0A8-3330F20B4413",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 123.55,
+            "size": "medium",
+            "y": 1291.15,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-219.63",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\">Oops... Risposta Sbagliata... Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "54.54",
+                    "width": "730.00",
+                    "height": "19.91",
+                    "id": "51A63993-7149-0D28-6969-3330F20C64EF",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.19",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666;\">Nell&rsquo;articolo 7 dei &ldquo;Termini di Servizio&rdquo; di YouTube riguarda i contenuti dell&rsquo;utente:</span></p>\n<p style=\"text-align: left;\"><br /><span style=\"color: #666666;\">\"7. Contenuti</span><br /><span style=\"color: #666666;\">7.1 Ogni titolare di un account YouTube potr&agrave; inserire Contenuti. L'utente comprende che, a prescindere dal fatto che i suoi Contenuti siano pubblicati o meno, YouTube non</span><br /><span style=\"color: #666666;\">garantisce alcuna riservatezza con riferimento ai Contenuti.</span><br /><span style=\"color: #666666;\">7.2 L'utente detiene tutti i diritti di propriet&agrave; sui propri Contenuti, ma deve concedere diritti limitati di licenza a YouTube e agli altri utenti del Servizio. Questi sono descritti all'articolo</span><br /><span style=\"color: #666666;\">8 dei presenti Termini (Diritti concessi in licenza dall'utente).</span><br /><span style=\"color: #666666;\">7.3 L'utente riconosce ed accetta di essere l'unico responsabile dei propri Contenuti e delle conseguenze del loro caricamento online o pubblicazione. YouTube non avalla</span><br /><span style=\"color: #666666;\">Contenuti o opinioni, raccomandazioni o consigli in essi contenuti, e declina espressamente ogni e qualsiasi responsabilit&agrave; in relazione ai Contenuti.</span><br /><span style=\"color: #666666;\">7.4 L'utente riconosce e garantisce di avere (e di continuare ad avere durante l&rsquo;utilizzo del Servizio) tutte le necessarie licenze, diritti, consensi, e permessi richiesti per consentire</span><br /><span style=\"color: #666666;\">a YouTube di utilizzare i propri Contenuti per gli scopi della fornitura del Servizio da parte di YouTube, e per usare altrimenti i Contenuti nel modo previsto dal Servizio e da questi</span><br /><span style=\"color: #666666;\">Termini.</span><br /><span style=\"color: #666666;\">7.5 La condotta dell'utente sul Sito web si dovr&agrave; conformare (e il contenuto di tutti i Contenuti si dovr&agrave; conformare) alle Linee Guida della Community di YouTube, consultabili</span><br /><span style=\"color: #666666;\">all'indirizzo https://www.youtube.it/t/community_guidelines, come periodicamente aggiornate.</span><br /><span style=\"color: #666666;\">7.6 Non &egrave; consentito pubblicare o caricare Contenuti che contengano materiali che sia illegale possedere in Italia nonch&eacute; nel paese in cui l&rsquo;utente &egrave; residente, o che sarebbe</span><br /><span style=\"color: #666666;\">illegale per YouTube usare o possedere in relazione alla fornitura del Servizio.</span><br /><span style=\"color: #666666;\">7.7 I Contenuti presentati nel Servizio non possono contenere alcun materiale coperto da copyright di terzi o soggetto ad altri diritti proprietari di terzi (compresi diritti di privacy o</span><br /><span style=\"color: #666666;\">diritti di pubblicazione), a meno che l'utente non abbia una licenza formale od un permesso da parte del titolare legittimo, ovvero sia in altro modo legalmente autorizzato, a</span><br /><span style=\"color: #666666;\">pubblicare il materiale in questione ed a concedere a YouTube la licenza di cui al successivo articolo 8.1.</span><br /><span style=\"color: #666666;\">7.8 Nel momento in cui dovesse venire a conoscenza di qualsiasi potenziale violazione dei presenti Termini, YouTube si riserva il diritto (ma non ha l'obbligo) di decidere se i</span><br /><span style=\"color: #666666;\">Contenuti si conformino con i requisiti previsti nei presenti Termini e potr&agrave; rimuovere tali Contenuti e/o inibire l'accesso di un utente al caricamento dei Contenuti che siano in</span><br /><span style=\"color: #666666;\">violazione dei presenti Termini in qualsiasi momento, senza preavviso ed a sua esclusiva discrezione.</span><br /><span style=\"color: #666666;\">7.9 L&rsquo;utente inoltre riconosce ed accetta che durante l'utilizzo del Servizio potr&agrave; essere esposto a Contenuti che siano di fatto imprecisi, offensivi, indecenti, o in altro modo per</span><br /><span style=\"color: #666666;\">esso riprovevoli. L'utente accetta di rinunciare e con il presente accordo rinuncia a qualsiasi diritto o rimedio legale o secondo equit&agrave; che ha o potrebbe avere nei confronti di</span><br /><span style=\"color: #666666;\">YouTube con riferimento ad uno qualsiasi di tali Contenuti.</span><br /><span style=\"color: #666666;\">[&hellip;]\"</span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666;\"> <br /></span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:29.31",
+                    "centerX": "65.76",
+                    "width": "751.00",
+                    "height": "406.79",
+                    "id": "0030CBBA-3874-BE39-B5C3-3330F20C87C5",
+                    "databegin": "00:01.69"
+                }
+            ],
+            "id": "5C36ACDD-7702-F3D8-DCCF-3330F20936C8",
+            "buttons": [
+                {
+                    "centerY": "232.49",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "7792F56A-E889-614B-3D0F-3331571F254D",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "2EC2F1A5-9C87-CE3D-C0A2-334FC03D11F8",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:27.06",
+                    "centerX": "361.72",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "5FB59A86-A929-C176-0547-3330F20CDA39",
+                    "databegin": "00:03.94"
+                }
+            ]
+        },
+        "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Home",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:30.96",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "9BE70417-B817-0D16-BF23-3395524F6EB9",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:30.96",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 682.8333333333334,
+            "size": "large",
+            "y": 370.8,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 29.964914082051347,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-61.89",
+                    "dataend": "00:30.96",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666;\"><span class=\"Apple-style-span\" style=\"line-height: 24px; font-size: 20px;\">Benvenuto!</span></span></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"color: #666666;\"><span class=\"Apple-style-span\" style=\"line-height: 24px; font-size: 20px;\">Prima di iniziare, dovresti leggere i Termini di Servizio e la normativa sulla Privacy di Youtube. Puoi trovarli a questi link:</span></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 15pt; color: #666666;\">&nbsp;</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 15pt; color: #666666;\"><a title=\"ciao\" href=\"https://support.google.com/accounts/answer/7660719?hl=it\" target=\"_blank\"><span style=\"color: #666666;\">Visualizzare, controllare ed eliminare le informazioni dell'account</span></a></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 15pt; color: #666666;\"><a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\" target=\"_blank\"><span style=\"color: #666666;\">Termini di Servizio</span></a></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 15pt; color: #666666;\"><a href=\"https://policies.google.com/privacy?hl=it&amp;gl=it#infochoices\" target=\"_blank\"><span style=\"color: #666666;\">Norme sulla Privacy</span></a></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 15pt; color: #666666;\"><a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\" target=\"_blank\"><span style=\"color: #666666;\">Condizioni per il Trattamento dei Dati</span></a></span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666;\">&nbsp;</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:28.97",
+                    "centerX": "-0.03",
+                    "width": "591.00",
+                    "height": "265.62",
+                    "id": "88485784-4F88-5855-0F55-28F0CCCE2A8C",
+                    "databegin": "00:01.00"
+                }
+            ],
+            "id": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
+            "buttons": [
+                {
+                    "centerY": "172.75",
+                    "dataend": "00:30.96",
+                    "type": "klynt-button-3",
+                    "zIndex": 1,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": -0.5332502255315946,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0.16991390698760686,
+                        "targetSequence": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "4DB60342-3D5C-475B-EDAB-339D1034058C",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:25.82",
+                    "centerX": "0.00",
+                    "width": "178.32",
+                    "height": "44.58",
+                    "label": "Avvia",
+                    "id": "74A44CFE-2AD8-AB4C-E109-339B557C1F74",
+                    "databegin": "00:05.14"
+                }
+            ]
+        },
+        "E3D88CC4-7F57-6FB5-A9DD-32F9D14E9797": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Risposta sbagliata D REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "F6170267-F1C3-C379-1A9C-32F9D150F146",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -131.3,
+            "size": "medium",
+            "y": 569.15,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "D137D945-F2AD-11BC-93AD-32F9D15103E5",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">L&rsquo;articolo 7 delle &ldquo;Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo; contiene informazioni legate alla sicurezza dei dati:</span></span></p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\"><br />\"7. Sicurezza dei Dati<br />7.1 Misure di Sicurezza ed Assistenza fornita da Google.<br />7.1.1 Misure di Sicurezza di Google. Google implementer&agrave; e manterr&agrave; misure tecniche ed organizzative al fine di proteggere i Dati Personali del Cliente da un'accidentale o illecita&nbsp;distruzione, perdita, alterazione, comunicazione o accesso non autorizzato come descritto in Allegato 2 (le \"Misure di Sicurezza\"). Google potr&agrave; aggiornare o modificare le Misure&nbsp;di Sicurezza di volta in volta, a condizione che tali aggiornamento o modifiche non comportino un peggioramento della sicurezza generale dei Servizi del Responsabile.<br />7.1.2 Rispetto della Sicurezza da parte dello Staff di Google. Google garantisce che tutto il personale autorizzato a trattare i Dati Personali del Cliente si &egrave; impegnato a tutelare la&nbsp;riservatezza o che sia tenuto a farlo nel rispetto di un idoneo obbligo di riservatezza stabilito dalla legge.<br />7.1.3 Assistenza di Google in materia di Sicurezza. Google assister&agrave; (tenendo conto della natura del trattamento dei Dati Personali del Cliente e delle informazioni che Google ha&nbsp;a disposizione) il Cliente nel garantire la conformit&agrave; con qualsiasi obbligo in capo al Cliente riguardo alla sicurezza dei dati personali ed alle violazioni dei dati personali, compresi&nbsp;(se applicabili) gli obblighi del Cliente previsti dagli Articoli da 32 a 34 (compresi) del RGPD:<br />(a) implementando e mantenendo le Misure di Sicurezza secondo quanto previsto dalla Sezione 7.1.1 (Misure di Sicurezza di Google);<br />(b) operando nel rispetto dei termini previsti dalla Sezione 7.2 (Data Incidents);<br />(c) fornendo al Cliente la Documentazione sulla Sicurezza nel rispetto di quanto previsto dalla Sezione 7.5.1 (Revisione della Documentazione sulla Sicurezza) e le informazioni&nbsp;contenute nelle presenti Condizioni per il Trattamento dei Dati.<br />[&hellip;]</span></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "top": "80.58",
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "78.24",
+                    "width": "768.83",
+                    "height": "401.22",
+                    "id": "41E2745E-8482-B5F9-BF3C-32F9D152BD8B",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "dataend": "00:31.00",
+                    "left": "159.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "top": "439.00",
+                    "scales": false,
+                    "duration": "00:30.15",
+                    "width": "400.00",
+                    "height": "34.00",
+                    "id": "27555D74-6E9E-5EF3-282E-3323041FB1CF",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "E3D88CC4-7F57-6FB5-A9DD-32F9D14E9797",
+            "buttons": [
+                {
+                    "centerY": "164.50",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 4,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "A7A855F5-735D-00FE-DAC3-3210708FEFF7",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "E5E8C130-015B-50B9-6977-32FC8A595D91",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": false,
+                    "duration": "00:28.92",
+                    "centerX": "237.52",
+                    "width": "160.00",
+                    "height": "40.00",
+                    "label": "Riprova",
+                    "id": "85E0E369-A0BA-06F8-9EFF-32F9D1521841",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "EAF00619-FE64-2FD8-9779-3381D830B9CA": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore 5.3",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "C83766C3-2B85-650F-AB96-3381D8312E27",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1750.95,
+            "size": "medium",
+            "y": 1063.4,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-214.55",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "8.00",
+                    "width": "621.00",
+                    "height": "24.73",
+                    "id": "0FF08D68-9772-605F-420F-3381D8324A2B",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-8.04",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\">L&rsquo;articolo 11 dei &ldquo;Termini e Servizi&rdquo; di YouTube riguarda la cessazione del rapporto con YouTube:</span></span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\"><br />\"11. Cessazione del rapporto con YouTube<br />11.1 I Termini continueranno ad essere in vigore fino alla loro cessazione da parte dell'utente o di YouTube come di seguito stabilito.<br />11.2 Qualora l'utente intenda recedere dal suo contratto con YouTube, lo potr&agrave; fare nei seguenti modi:&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #666666; line-height: 15px; font-size: 13px;\">(a) comunicandolo a YouTube in qualsiasi momento e&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #666666; line-height: 15px; font-size: 13px;\">(b) chiudendo il suo account di YouTube. Tale comunicazione dovr&agrave; essere inviata, per iscritto, all'indirizzo di YouTube indicato all'inizio dei presenti Termini.</span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\">11.3 YouTube potr&agrave; in qualsiasi momento risolvere il presente contratto con l'utente, qualora:<br />a) l&rsquo;utente abbia violato una qualunque delle disposizioni dei Termini (o abbia agito in un modo che chiaramente indichi che non ha intenzione di, o non &egrave; in grado di, conformarsi alle disposizioni dei Termini);<br />b) YouTube sia obbligata a farlo perch&eacute; cos&igrave; richiesto dalla legge (ad esempio, laddove la fornitura del Servizio nei confronti dell'utente sia, o divenga, illegittima).<br />11.4 YouTube potr&agrave; in qualsiasi momento sciogliere il presente contratto con l'utente, qualora:<br />a) YouTube non sia pi&ugrave; intenzionata a fornire il Servizio agli utenti in Italia nonch&eacute; nel paese in cui l'utente &egrave; residente o dal quale usa il Servizio;<br />b) la fornitura del Servizio nei confronti dell'utente da parte di YouTube sia, secondo YouTube, non pi&ugrave; vantaggiosa dal punto di vista commerciale<br />e in entrambi i casi A e B di questo articolo 11.4 YouTube dovr&agrave;, ove possibile, inviare comunicazione di tale scioglimento con ragionevole preavviso.<br />11.5 Nel momento in cui i presenti Termini vengano a cessare, tutti i diritti legali, gli obblighi e le responsabilit&agrave; di cui l'utente e YouTube abbiano beneficiato, o ai quali siano stati soggetti (o che siano maturati durante il periodo di validit&agrave; dei Termini) o per i quali &egrave; espressamente prevista la prosecuzione di durata indefinita,&nbsp;non saranno inficiati da tale cessazione, e le disposizioni dell'articolo 14.6 continueranno ad applicarsi a tali diritti, obbligazioni e responsabilit&agrave; indefinitamente.\"</span></span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: medium;\">&nbsp;</span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 10pt;\">&nbsp;</span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.55",
+                    "width": "751.00",
+                    "height": "378.92",
+                    "id": "93C9C380-E651-9544-65D9-3381D83264BB",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "dataend": "00:31.00",
+                    "left": "158.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: left;\"><span style=\"font-size: 10pt; color: #666666;\">Per il testo commpleto clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "top": "421.00",
+                    "scales": false,
+                    "duration": "00:30.15",
+                    "width": "400.00",
+                    "height": "38.00",
+                    "id": "D376222F-0B38-6596-DCF5-338CB8E843C3",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "EAF00619-FE64-2FD8-9779-3381D830B9CA",
+            "buttons": [
+                {
+                    "centerY": "160.50",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 4,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "D8ED231B-43F4-F3BC-19C1-3358503E16E9",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "515400D3-9367-EAFE-22DF-338FF3E02911",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": false,
+                    "duration": "00:28.92",
+                    "centerX": "239.52",
+                    "width": "160.00",
+                    "height": "40.00",
+                    "label": "Riprova",
+                    "id": "4E46EE79-C6E3-99F1-5FDB-3381D83293FF",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "E00CADDA-C37A-83AA-5AAD-321CEB5587CD": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Quiz 4 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "750348C0-89B2-AC75-3205-32F81C298238",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 702.1,
+            "size": "medium",
+            "y": 888.05,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-58.96",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12pt; color: #666666;\"><span class=\"Apple-style-span\" style=\"line-height: 17px;\">C.&nbsp;Nel caso in cui si continui ad usare il Servizio successivamente alla modifica e pubblicazione dei Termini, tale uso non costituir&agrave; accettazione&nbsp;implicita dei Termini Modificati</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "280.90",
+                    "width": "395.29",
+                    "height": "141.82",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "DA2CF51B-B7A4-4B48-8685-335754F271F5",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "1367ADD4-AD2F-23F9-323E-33582488C024",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "3D0AC7DA-5F4C-90B2-DC79-321CEB5DCF7A",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "103.97",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: 13pt;\">B.&nbsp;YouTube non concede agli operatori di motori di ricerca pubblici il permesso di usare gli spider per copiare materiale dal Sito web per creare indici di&nbsp;ricerca dei materiali pubblicamente disponibili</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.43",
+                    "centerX": "-118.37",
+                    "width": "381.07",
+                    "height": "167.92",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "BF5A8D30-7A1C-A2A3-B3E7-33572E3DEDE4",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "BB066137-01D6-F731-123A-33580F64D16B",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "441B7E4A-BBBA-3600-C987-321CEB5D1C77",
+                    "databegin": "00:02.57"
+                },
+                {
+                    "centerY": "105.53",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: 12pt;\"><span class=\"Apple-style-span\" style=\"line-height: 22px;\">D.&nbsp;Google pu&ograve; modificare le presenti Condizioni per il Trattamento dei Dati se la modifica non amplia l'ambito o rimuove eventuali restrizioni sul&nbsp;trattamento dei Dati Personali del Cliente da parte di Google (Corretta)</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 3,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:29.03",
+                    "centerX": "282.40",
+                    "width": "391.74",
+                    "height": "164.14",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "D8ED231B-43F4-F3BC-19C1-3358503E16E9",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "0419605F-A8F3-855F-BF43-3358D01CF089",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "C2110E86-8E3A-7147-2622-321CEB5E117A",
+                    "databegin": "00:01.97"
+                },
+                {
+                    "centerY": "-61.18",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: 12pt;\"><span class=\"Apple-style-span\" style=\"line-height: 17px;\">A.&nbsp;Google non pu&ograve; salvare nel tuo Account Google la tua attivit&agrave; sui siti e le app Google, incluse le ricerche e le informazioni associate, come la&nbsp;posizione</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 4,
+                    "click": [
+                        {
+                            "value": "rgba(255,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "-122.12",
+                    "width": "381.38",
+                    "height": "137.54",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "AE85B9B9-70C3-040B-1AB9-3356DD04AD9C",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "AD2E5E8D-88C4-3477-9823-3357F55708FD",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "3A561328-3A6D-C3C6-8A03-321CEB5E502D",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "-195.81",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 13pt;\"><span class=\"Apple-style-span\" style=\"line-height: 20px;\">si ricorda che le Condizioni sul Trattamento dei Dati da parte di youtube operano come addendum al contratto tra te, \"Cliente\", e Google</span></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 5,
+                    "scales": true,
+                    "duration": "00:29.57",
+                    "centerX": "81.96",
+                    "width": "788.23",
+                    "height": "46.68",
+                    "id": "A8B4792E-69F7-E7AC-77AF-321CEB5E68C8",
+                    "databegin": "00:01.43"
+                },
+                {
+                    "centerY": "-254.62",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666; font-size: 13pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\">Scegli la risposta corretta:</span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 6,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "-82.03",
+                    "width": "334.31",
+                    "height": "53.98",
+                    "id": "332D62F1-04A5-E002-2BE9-321CEB5E9C9A",
+                    "databegin": "00:01.00"
+                }
+            ],
+            "id": "E00CADDA-C37A-83AA-5AAD-321CEB5587CD"
+        },
+        "919E77E0-AEE6-4778-710D-32F99B57DE8C": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Risposta sbagliata A REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "4A6BEDF0-DF97-4858-57FD-32F99B59FA28",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -128.55,
+            "size": "medium",
+            "y": 263.8,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "5BD550FB-491B-DAF9-CF9F-32F99B59C5B8",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.11",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Per quanto riguarda i contenuti sul sito web di YouTube, nell&rsquo;articolo 9 dei &ldquo;Termini di Servizio&rdquo; di YouTube si trova:</span></span></p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\"><br />\"9. Contenuto di YouTube sul Sito web<br />9.1 Con l'eccezione dei Contenuti sottoposti nel Servizio dall&rsquo;utente, tutti gli altri Contenuti presenti sul Servizio sono, alternativamente, di propriet&agrave; di YouTube o concessi in licenza a&nbsp;YouTube, e sono oggetto di copyright, diritti di marchio e degli altri diritti di propriet&agrave; intellettuale di YouTube o dei licenzianti di YouTube. Qualsiasi marchio o marchio di servizio di&nbsp;terzi presente sui Contenuti, non caricato n&eacute; pubblicato dall&rsquo;utente, resta un marchio o marchio di servizio dei rispettivi titolari. Tali contenuti non potranno essere scaricati, copiati,&nbsp;riprodotti, distribuiti, trasmessi, diffusi, visualizzati, venduti, concessi in licenza o in altro modo sfruttati per qualsiasi altra finalit&agrave; senza il previo consenso scritto di YouTube o, ove&nbsp;applicabile, dei licenzianti di YouTube. YouTube ed i suoi licenzianti si riservano tutti i diritti non espressamente concessi sui, e rispetto ai, loro Contenuti.\"</span></span></p>\n<p><span style=\"color: #666666;\">&nbsp;</span></p>\n<p><span style=\"font-size: 10pt; color: #666666;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.58",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "943AC15C-1A00-F108-8239-32F99B593EB7",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "919E77E0-AEE6-4778-710D-32F99B57DE8C",
+            "buttons": [
+                {
+                    "centerY": "155.50",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "A7A855F5-735D-00FE-DAC3-3210708FEFF7",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "A31FB8CF-48A0-8F1F-27C8-32FC0B835C07",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": false,
+                    "duration": "00:28.92",
+                    "centerX": "191.52",
+                    "width": "160.00",
+                    "height": "40.00",
+                    "label": "Riprova",
+                    "id": "AAB32FDA-F0C0-CFB7-A0BA-32F99B5A92C8",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "ACC656F0-F5F2-A402-7C02-0A9C63175536": {
+            "hideInMindmap": false,
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Terminale",
+            "x": 683.3833333333333,
+            "size": "medium",
+            "y": 574.9,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "iframes": [
+                {
+                    "dataend": "00:31.00",
+                    "zIndex": 1,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "top": "55.00",
+                    "bottom": "10.00",
+                    "scales": true,
+                    "duration": "00:29.90",
+                    "centerX": "0.00",
+                    "width": "865.00",
+                    "code": "<iframe src=\"https://antocr.github.io/Terminal/\" style=\"border:0px #ffffff none;\" name=\"myiFrame\" scrolling=\"yes\" frameborder=\"1\" marginheight=\"0px\" marginwidth=\"0px\" height=\"400px\" width=\"600px\" allowfullscreen></iframe>",
+                    "id": "A6410EC2-766D-5439-2339-0A9C6319E23D",
+                    "databegin": "00:01.10"
+                }
+            ],
+            "id": "ACC656F0-F5F2-A402-7C02-0A9C63175536",
+            "buttons": [
+                {
+                    "centerY": "0.00",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-1",
+                    "zIndex": 0,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "AE29B98B-E546-569A-058B-0AA6B0013B03",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:14.75",
+                    "centerX": "-0.00",
+                    "width": "208.11",
+                    "height": "52.03",
+                    "label": "Home",
+                    "id": "7A36F669-666A-EF4F-9E72-0AA6B000F1BE",
+                    "databegin": "00:16.25"
+                }
+            ]
+        },
+        "DB56BAEB-5745-DB20-16DF-33815A3AF801": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore 5.2",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "A5CC0F6E-732D-5599-C955-33815A3B5472",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1748.95,
+            "size": "medium",
+            "y": 883.65,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "BE5437E5-04C0-F94C-D3B2-33815A3C1781",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.11",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Per quanto riguarda l&rsquo;esclusione da garanzie si rimanda all&rsquo;articolo 12 dei &ldquo;Termini e Servizi&rdquo; di YouTube:<br />12. Esclusione di Garanzie<br />12.1 Nulla di quanto previsto dai Termini potr&agrave; inficiare alcun diritto previsto dalla legge, a cui l&rsquo;utente abbia diritto in qualit&agrave; di consumatore e che non possa essere&nbsp;modificato o rinunciato convenzionalmente.<br />12.2 Il Servizio &egrave; fornito \"cos&igrave; come &egrave;\" e YouTube non rilascia alcuna garanzia o dichiarazione con riferimento ad esso.<br />12.3 In particolare YouTube non dichiara o garantisce che:<br />l'uso del Servizio soddisfi le esigenze dell&rsquo;utente,&nbsp;l'uso del Servizio sia ininterrotto, tempestivo, sicuro o privo di errori,&nbsp;qualsiasi informazione ottenuta dall'utente come risultato del proprio uso del Servizio sia precisa o affidabile, e&nbsp;i difetti nell'operativit&agrave; o funzionalit&agrave; di qualsiasi software fornito all'utente come parte del Servizio saranno riparati.<br />12.4 Nessuna condizione, garanzia o altro termine (compreso qualsiasi termine implicito di qualit&agrave; soddisfacente, idoneit&agrave; ad uno scopo o conformit&agrave; con la descrizione) si&nbsp;applica al Servizio salvo che ci&ograve; sia espressamente stabilito nei Termini.</span></span></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></span></span></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">&nbsp;</p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.58",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "6E88A913-871F-397C-663A-33815A3CE14E",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "DB56BAEB-5745-DB20-16DF-33815A3AF801",
+            "buttons": [
+                {
+                    "centerY": "155.50",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "D8ED231B-43F4-F3BC-19C1-3358503E16E9",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "49555BD3-3314-AE8E-4C85-338FBDBC027E",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": false,
+                    "duration": "00:28.92",
+                    "centerX": "191.52",
+                    "width": "160.00",
+                    "height": "40.00",
+                    "label": "Riprova",
+                    "id": "636FA26A-7C9D-F8E9-B8C3-33815A3CA1FB",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "3219EF54-BD0B-E39B-ECEB-33813F6CB6F4": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore 5.1",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "AC080158-88ED-B72A-C96C-33813F6EA6ED",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1749.65,
+            "size": "medium",
+            "y": 717.2,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-217.33",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.88",
+                    "width": "621.00",
+                    "height": "25.87",
+                    "id": "0D76E6A8-324D-B8D1-F9B6-33813F6E7937",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-8.03",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\">La cancellazione dei dati &egrave; trattata nell&rsquo;articolo 6 delle \"Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo;:</span></span></p>\n<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\"><br />6. Cancellazione dei Dati<br />6.1 Cancellazione Durante il Periodo.<br />6.1.1 Servizi del Responsabile Con la Funzionalit&agrave; di Cancellazione. Nel corso del Periodo, se:<br />(a) le funzionalit&agrave; dei Servizi del Responsabile prevedono l'opzione per il Cliente di cancellare i Dati Personali del Cliente;<br />(b) il Cliente utilizza i Servizi del Responsabile per cancellare determinati Dati Personali del Cliente; e<br />(c) i Dati Personali del Cliente cancellati non possono essere recuperati dal Cliente (ad esempio, dal \"cestino\"),&nbsp;di conseguenza Google canceller&agrave; tali Dati Personali del Cliente dai suoi sistemi quanto prima sia ragionevolmente possibile a meno che la normativa UE o di uno Stato Membro dell'UE ne richieda la conservazione.<br />6.1.2 Servizi del Responsabile Senza Funzionalit&agrave; di Cancellazione. Nel corso del Periodo, se le funzionalit&agrave; dei Servizi del Responsabile non prevedono l'opzione per il Cliente di cancellare i Dati Personali del Cliente,&nbsp;Google verr&agrave; allora incontro ad ogni ragionevole richiesta del Cliente di agevolare la cancellazione, nella misura in cui ci&ograve; &egrave; possibile tenendo conto della natura e della funzionalit&agrave; dei Servizi del Responsabile. Google&nbsp;potrebbe richiedere il pagamento di una somma di denaro (fondata su i ragionevoli costi sostenuti da Google) per qualsiasi cancellazione di dati ai sensi di questa Sezione 6.1.2 (Servizi del Responsabile Senza&nbsp;Funzionalit&agrave; di Cancellazione). Google fornir&agrave; al Cliente ulteriori dettagli relativi a qualsiasi costo applicabile, nonch&eacute; la base del suo calcolo, prima di qualsiasi cancellazione di dati.<br />6.2 Cancellazione alla Scadenza del Contratto. Alla scadenza o alla risoluzione del Contratto, il Cliente fornisce istruzioni a Google per cancellare tutti i Dati Personali del Cliente (comprese ogni copia esistente) dai&nbsp;sistemi di Google nel rispetto della legge applicabile. Google si atterr&agrave; a queste istruzioni quanto prima sia ragionevolmente possibile, a meno che: (i) la normativa UE o di uno Stato Membro dell'UE ne richieda la&nbsp;conservazione; o (ii) il Contratto viene sostituito da un nuovo contratto o condizioni tra il Cliente e Google per quanto riguarda l'utilizzo dei servizi di YouTube da parte del Cliente ed il Cliente conferma che i Dati Personali&nbsp;del Cliente (comprese ogni copia esistente gi&agrave; caricata nei Servizi YouTube) dovranno continuare ad essere trattati in conformit&agrave; con le presenti Condizioni per il Trattamento dei Dati.</span></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">&nbsp;</span></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">&nbsp;</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">&nbsp;</span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.55",
+                    "width": "751.00",
+                    "height": "387.85",
+                    "id": "C81188F2-C92B-A664-7EC2-33813F6E273B",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "dataend": "00:31.00",
+                    "left": "162.00",
+                    "type": "txt-Default",
+                    "text": "<p><span style=\"color: #666666; font-size: 10pt;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "top": "424.00",
+                    "scales": false,
+                    "duration": "00:30.15",
+                    "width": "400.00",
+                    "height": "36.00",
+                    "id": "9924DEAD-EB7E-18CE-EA55-33859E7E9A0E",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "3219EF54-BD0B-E39B-ECEB-33813F6CB6F4",
+            "buttons": [
+                {
+                    "centerY": "228.35",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 4,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "D8ED231B-43F4-F3BC-19C1-3358503E16E9",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "34B1DD0E-23CE-A54B-464B-3382F96EC086",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:28.92",
+                    "centerX": "307.02",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "EF3EDD97-3B9F-8970-48FB-33813F6ECCBF",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "D8ED231B-43F4-F3BC-19C1-3358503E16E9": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Quiz 5 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "871693AE-4B7C-B2A5-BD7F-3358503F77E2",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1320.05,
+            "size": "medium",
+            "y": 885.85,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-67.96",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: large;\"><span class=\"Apple-style-span\" style=\"font-size: 16px; line-height: 17px;\">C. Nel momento in cui i termini di servizio di YouTube vengano a cessare, tutti i diritti legali, gli obblighi e le responsabilit&agrave; di cui l'utente e YouTube abbiano beneficiato, o ai quali siano stati soggetti o per i quali &egrave; espressamente prevista la prosecuzione di durata indefinita, saranno inficiati da tale cessazione.</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "277.54",
+                    "width": "395.29",
+                    "height": "204.24",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "EAF00619-FE64-2FD8-9779-3381D830B9CA",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "D17A53E1-3AEF-6BCA-4F44-33829503BAB9",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "0BD2BF0B-79E9-1486-FED3-33585040CBB8",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "121.24",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: x-large;\"><span class=\"Apple-style-span\" style=\"font-size: 17px; line-height: 22px;\">B. YouTube dichiara e garantisce che l'uso del Servizio sia ininterrotto, tempestivo, sicuro o privo di errori.</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.43",
+                    "centerX": "-119.49",
+                    "width": "381.07",
+                    "height": "122.22",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "DB56BAEB-5745-DB20-16DF-33815A3AF801",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "9A294566-3E08-ED28-3ADD-338277B4791E",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "58DEB6B3-5AC6-E06E-8344-335850408578",
+                    "databegin": "00:02.57"
+                },
+                {
+                    "centerY": "128.93",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: large;\"><span class=\"Apple-style-span\" style=\"font-size: 16px; line-height: 22px;\">D. Qualora l&rsquo;utente intenda recedere dal suo contratto con YouTube lo potr&agrave; fare inviando una omunicazione per iscritto, oltre che a chiudere il suo account YouTube (Corretta)</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 3,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:29.03",
+                    "centerX": "280.17",
+                    "width": "391.74",
+                    "height": "144.07",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": -0.5878567272184346,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0.2671293029437955,
+                        "targetSequence": "2957910C-27EC-5A9F-1548-F113D24BB74B",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "1E1AADA7-2567-5929-8AFC-3380838379B7",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "686C53F2-6D84-18D8-A32B-33585040DA75",
+                    "databegin": "00:01.97"
+                },
+                {
+                    "centerY": "-97.96",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: large;\"><span class=\"Apple-style-span\" style=\"font-size: 16px; line-height: 17px;\">A. I Dati Personali del Cliente cancellati possono essere recuperati dal Cliente (ad esempio, dal &ldquo;cestino&rdquo;)</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 4,
+                    "click": [
+                        {
+                            "value": "rgba(255,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "-118.77",
+                    "width": "381.38",
+                    "height": "137.54",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "3219EF54-BD0B-E39B-ECEB-33813F6CB6F4",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "3643121C-3FBF-442B-EEC5-3382598FB270",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "6EE9602E-7D5C-C404-D2DF-33585041A5D6",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "-254.62",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666; font-size: 13pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\">Scegli la risposta corretta:</span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 5,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "-82.03",
+                    "width": "334.31",
+                    "height": "53.98",
+                    "id": "E77493C0-AFA0-7FC5-8967-33585042EA18",
+                    "databegin": "00:01.00"
+                }
+            ],
+            "id": "D8ED231B-43F4-F3BC-19C1-3358503E16E9"
+        },
+        "60D54B99-7217-999B-52C2-33331FE95E54": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/youtubeVeroRisorsa_5.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore vero/falso 4 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "D9FD9599-66A6-298B-9C55-33331FEA01BE",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 129.25,
+            "size": "medium",
+            "y": 1476.6,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-210.15",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\">Oops... Risposta Sbagliata... Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "53.47",
+                    "width": "730.00",
+                    "height": "27.73",
+                    "id": "190853EC-4059-04CD-A87A-33331FEB7B1E",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "6.40",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-family: Roboto; color: #666666;\">L&rsquo;articolo 7.2 delle \"Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo; riguarda i &ldquo;data incidents&rdquo; :</span></p>\n<p><span style=\"font-family: Roboto; color: #666666;\"><br />\"7. Sicurezza dei Dati<br />[&hellip;]<br />7.2 Data Incidents.<br />7.2.1 Segnalazione di un Data Incident. Qualora Google venisse a conoscenza di un Data Incident, Google: (a) segnaler&agrave; al Cliente prontamente e senza<br />indebito ritardo il Data Incident; e (b) adotter&agrave; prontamente tutte le misure necessarie per minimizzare il danno e mettere in sicurezza I Dati Personali del<br />Cliente.<br />7.2.2 Informazioni sul Data Incident. Le segnalazioni effettuate secondo la Sezione 7.2.1 (Segnalazione di un Data Incident) descriveranno, per quanto<br />possibile, le caratteristiche del Data Incident, comprese le misure adottate per mitigare i rischi potenziali, nonch&eacute; le misure raccomandate da Google al<br />Cliente per gestire il Data Incident.<br />7.2.3 Invio della Segnalazione. Google invier&agrave; la segnalazione di qualsiasi Data Incident all'Indirizzo Email per le Segnalazioni o tramite qualsiasi altro<br />canale diretto di comunicazione (ad esempio, via telefono o in un incontro di persona). Il Cliente adotter&agrave; tutte le ragionevoli misure atte a fornire l'Indirizzo<br />Email per le Segnalazioni ed assicurare che l'Indirizzo Email per le Segnalazioni sia attuale e valido.<br />7.2.4 Segnalazioni a Soggetti Terzi. Il Cliente &egrave; l'unico responsabile per ottemperare alle disposizioni legislative applicabili al Cliente in materia di<br />segnalazione di un Data Incident e per adempiere a qualsiasi obbligo di segnalazione a soggetti terzi relativamente ad un Data Incident.<br />7.2.5 Nessun Riconoscimento di Colpa da parte di Google. Le segnalazioni o le risposte a un Data Incident da parte di Google ai sensi di questa Sezione 7.2<br />(Data Incidents) non saranno considerate come un riconoscimento da parte di Google di una qualsiasi colpa o responsabilit&agrave; con riguardo al Data Incident.<br />[&hellip;]\"</span></p>\n<p><span style=\"font-family: Roboto; color: #666666;\">&nbsp;</span></p>\n<p><span style=\"font-family: Roboto; color: #666666;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:29.31",
+                    "centerX": "69.10",
+                    "width": "762.14",
+                    "height": "394.53",
+                    "id": "FCA80901-E811-B6B5-EBF8-33331FEB7AFF",
+                    "databegin": "00:01.69"
+                }
+            ],
+            "id": "60D54B99-7217-999B-52C2-33331FE95E54",
+            "buttons": [
+                {
+                    "centerY": "238.01",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "B45AF92C-7592-01AF-5A8E-33332ACAAAD8",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "0CCDD5CA-D8F2-7CE6-1544-334F0033F70D",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:27.06",
+                    "centerX": "356.20",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "751900C0-5318-F8A9-EE87-33331FEB515F",
+                    "databegin": "00:03.94"
+                }
+            ]
+        },
+        "7792F56A-E889-614B-3D0F-3331571F254D": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Vero/Falso 3 SISTEMARE",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "D3D87503-7D7F-2E69-6AD2-3331572148DD",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 370.05,
+            "size": "medium",
+            "y": 1290.4,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "142.26",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">FALSO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "236.69",
+                    "width": "178.00",
+                    "height": "58.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "B45AF92C-7592-01AF-5A8E-33332ACAAAD8",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "6F2A8E1E-4270-3E73-BA2E-33488B5103F5",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "DAB758E9-DC75-00EC-AB2B-33315721697A",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "144.49",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">VERO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "-146.41",
+                    "width": "178.00",
+                    "height": "61.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "5C36ACDD-7702-F3D8-DCCF-3330F20936C8",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "87B276A5-6CBB-860D-221A-3342902E118C",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "7133FBB2-2216-E017-7FC6-33315721DAD3",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "-123.13",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: xx-large;\"><span class=\"Apple-style-span\" style=\"font-size: 19px; line-height: 22px;\">Se l&rsquo;utente viene esposto a Contenuti imprecisi, offensivi, indecenti, o in altro modo per esso riprovevoli, ha diritto a rimedi legali nei confronti di YouTube con riferimento ad uno qualsiasi di tali Contenuti</span></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "scales": true,
+                    "duration": "00:28.71",
+                    "centerX": "77.16",
+                    "width": "736.14",
+                    "height": "155.53",
+                    "id": "13EB7AC9-4DD4-DDFC-6D08-333157213B19",
+                    "databegin": "00:02.29"
+                },
+                {
+                    "centerY": "-256.94",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666; font-size: 13pt;\">Vero o Falso?</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 4,
+                    "scales": true,
+                    "duration": "00:30.09",
+                    "centerX": "-106.36",
+                    "width": "300.99",
+                    "height": "50.29",
+                    "id": "3A839354-6CE4-9FBF-D260-33315721A432",
+                    "databegin": "00:00.91"
+                }
+            ],
+            "id": "7792F56A-E889-614B-3D0F-3331571F254D"
+        },
+        "AE85B9B9-70C3-040B-1AB9-3356DD04AD9C": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore 4.1",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "209591B0-4A0E-1610-8F18-3356DD05264E",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 779.9,
+            "size": "medium",
+            "y": 1293.75,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "C908D029-BB04-6AD2-E7E9-3356DD052164",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.11",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Le informazioni riguardanti l&rsquo;accettazione dei termini sono contenute nell&rsquo;articolo 2 dei &ldquo;Termini di Servizio&rdquo; di YouTube:</span></span></p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\"><br />\"2. Accettazione dei Termini<br />2.1 Prima di poter usare il Servizio, l'utente dovr&agrave; accettare i Termini. Il Servizio pu&ograve; essere utilizzato solo previa accettazione dei Termini.<br />2.2 I Termini potranno essere accettati semplicemente utilizzando il Servizio. L'utente riconosce e accetta che YouTube considerer&agrave; l'uso del Servizio da parte sua come accettazione&nbsp;dei Termini da quel momento in poi.<br />2.3 Non potranno utilizzare il Servizio ed accettare i Termini gli utenti: (a) che non abbiano l'et&agrave; prevista dalla legge per stipulare un contratto con YouTube, o (b) ai quali sia vietato o in&nbsp;altro modo legalmente inibito utilizzare o ricevere il Servizio ai sensi della legge italiana nonch&eacute; delle leggi del paese in cui sono residenti o da cui accedono o utilizzano il Servizio.<br />2.4 Consigliamo di stampare o salvare una copia dei Termini per il proprio archivio.\"</span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></span></span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.58",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "E1178B1C-4735-F23D-D9E2-3356DD0605FC",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "AE85B9B9-70C3-040B-1AB9-3356DD04AD9C",
+            "buttons": [
+                {
+                    "centerY": "214.55",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E00CADDA-C37A-83AA-5AAD-321CEB5587CD",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "A678C973-CF96-FD79-3AC7-339DA7974FA8",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:28.92",
+                    "centerX": "264.24",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "C365E931-3F55-103A-F6EE-3356DD06C6A3",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "7DB22450-E0D5-541A-4AF5-3331147B4F25": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Vero/Falso 2 SISTEMARE",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "A9ECEE83-F49B-D80C-5097-3331147D5E01",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 370.75,
+            "size": "medium",
+            "y": 1117.15,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "142.26",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">FALSO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "236.69",
+                    "width": "178.00",
+                    "height": "58.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E6CF91A6-5718-360C-9C5C-3330D7D2F73D",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "4B7D2AD6-CA15-CA6F-C68D-333BE4C36F81",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "53CE382A-932B-2F97-F972-3331147D924F",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "144.49",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">VERO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "-146.41",
+                    "width": "178.00",
+                    "height": "61.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "7792F56A-E889-614B-3D0F-3331571F254D",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "39733C38-6B3A-E0DA-A42B-333ED2D522BF",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "53842CAE-1424-F57B-DA45-3331147E52D2",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "-119.80",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: xx-large; font-family: Roboto;\"><span class=\"Apple-style-span\" style=\"font-size: 19px; line-height: 10px;\">Google potrebbe opporsi ad un qualsiasi auditor terzo nominato dal Cliente per effettuare una qualsiasi verifica se l'auditor non sia, secondo la ragionevole opinione di Google, adeguatamente qualificato o indipendente, oppure un concorrente di Google o comunque manifestamente inadatto</span></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "scales": true,
+                    "duration": "00:28.71",
+                    "centerX": "77.10",
+                    "width": "736.14",
+                    "height": "166.66",
+                    "id": "480F2527-7A4D-C29C-7494-3331147EEF52",
+                    "databegin": "00:02.29"
+                },
+                {
+                    "centerY": "-255.83",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666; font-size: 13pt;\">Vero o Falso?</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 4,
+                    "scales": true,
+                    "duration": "00:30.09",
+                    "centerX": "-103.02",
+                    "width": "300.99",
+                    "height": "50.29",
+                    "id": "A70AA20F-8336-9528-92A3-3331147E4F02",
+                    "databegin": "00:00.91"
+                }
+            ],
+            "id": "7DB22450-E0D5-541A-4AF5-3331147B4F25"
+        },
+        "BE88ED9B-CE3E-DF04-D257-330132CB1F2D": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/youtubeVeroRisorsa_5.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Schermata vuota con sfondo",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 1,
+                    "id": "1F86F8D5-8A82-C7EB-942E-3301ACEB2525",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1511.55,
+            "size": "medium",
+            "y": 111.6,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "id": "BE88ED9B-CE3E-DF04-D257-330132CB1F2D"
+        },
+        "E50C8990-D894-99B0-91B9-F104B4169797": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Vero/Falso 1 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "F88F0F0F-E4EF-FCCD-DD2A-33283EFC74E2",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 371.1,
+            "size": "medium",
+            "y": 939.6,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "142.26",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">FALSO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "236.69",
+                    "width": "178.00",
+                    "height": "58.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "AF881154-2C53-C884-9EEA-2E7CB1684D4C",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "AA0880B1-AA0F-964C-9943-2E7FB328285A",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "FCF3DFDC-1918-5BB8-F7D1-F104B4174D88",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "144.49",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">VERO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "-146.41",
+                    "width": "178.00",
+                    "height": "61.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "7DB22450-E0D5-541A-4AF5-3331147B4F25",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "111FB73F-C2FF-C879-39C8-33320640376E",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "28D97C57-64EF-1925-ECE1-2E77DF893AFC",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "-123.00",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-family: Roboto; color: #666666;\"><span style=\"font-size: 14pt;\">L&rsquo;audit &egrave; una valutazione indipendente volta a stabilire in che misura siano stati soddisfatti i criteri stabiliti relativamente&nbsp;ad un determinato oggetto. L&rsquo;auditor &egrave; un individuo che possiede le competenze per effettuare un audit.&nbsp;Google consente al Cliente o ad un auditor terzo nominato dal Cliente di condurre audits per verificare li rispetto da parte</span>&nbsp;<span style=\"font-size: 14pt;\">di Google dei suoi obblighi</span></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "scales": true,
+                    "duration": "00:28.71",
+                    "centerX": "77.00",
+                    "width": "736.00",
+                    "height": "155.00",
+                    "id": "AAA67FA1-B535-6086-5C6F-F104B417779F",
+                    "databegin": "00:02.29"
+                },
+                {
+                    "centerY": "-256.94",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666; font-size: 13pt;\">Vero o Falso?</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 4,
+                    "scales": true,
+                    "duration": "00:30.09",
+                    "centerX": "-106.36",
+                    "width": "300.99",
+                    "height": "50.29",
+                    "id": "11B43477-C3EE-B42C-7FD2-F104B4183250",
+                    "databegin": "00:00.91"
+                }
+            ],
+            "id": "E50C8990-D894-99B0-91B9-F104B4169797"
+        },
+        "E6CF91A6-5718-360C-9C5C-3330D7D2F73D": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/youtubeVeroRisorsa_5.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore vero/falso 2 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "95BF4467-7B9A-2D14-2402-3330D7D4D272",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 123.65,
+            "size": "medium",
+            "y": 1114.9,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-210.83",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\">Oops... Risposta Sbagliata... Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "56.32",
+                    "width": "730.00",
+                    "height": "23.25",
+                    "id": "750B1032-16F3-A87E-0F3A-3330D7D571AA",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "5.00",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\">Nell&rsquo;articolo 7.5 delle \"Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo; si possono trovare le informazioni relative alle revisioni e audits:</span></p>\n<p><span style=\"color: #666666;\"><br />\"7. Sicurezza dei Dati<br />[&hellip;]<br />7.5 Revisioni e Audits del Rispetto degli obblighi.<br />7.5.1 Revisione della Documentazione sulla Sicurezza. Al fine di dimostrare il rispetto da parte di Google degli obblighi previsti dalle presenti Condizioni per il&nbsp;Trattamento dei Dati, Google metter&agrave; la Documentazione sulla Sicurezza a disposizione del Cliente per una sua revisione.<br />7.5.2 Diritti di Verifica del Cliente.<br />(a) Google consente al Cliente o ad un auditor terzo nominato dal Cliente di condurre audits (comprese delle ispezioni) per verificare li rispetto da parte di Google dei&nbsp;suoi obblighi previsti dalle presenti Condizioni per il Trattamento dei Dati in conformit&agrave; con la Sezione 7.5.3 (Condizioni Commerciali Aggiuntive in caso di Audit).<br />Google contribuisce a tali attivit&agrave; di verifica come descritto nella Sezione 7.4 (Certificazione sulla Sicurezza) ed in questa Sezione 7.5 (Revisioni e Audits del Rispetto<br />degli Obblighi).<br />(b) Il Cliente pu&ograve; anche condurre un'attivit&agrave; di audit sul rispetto da parte di Google dei suoi obblighi previsti dalle presenti Condizioni per il Trattamento dei Dati<br />controllando il certificato predisposto per la Certificazione ISO 27001 (che riflette i risultati di un'attivit&agrave; di audit condotta da un auditor terzo), qualora tale certificazione<br />sia disponibile al momento della richiesta del Cliente.<br />[&hellip;]\"</span></p>\n<p><span style=\"color: #666666;\">&nbsp;</span></p>\n<p><span style=\"color: #666666;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:29.31",
+                    "centerX": "65.00",
+                    "width": "751.00",
+                    "height": "389.00",
+                    "id": "BA4C40BC-466B-C81A-6089-3330D7D5D684",
+                    "databegin": "00:01.69"
+                }
+            ],
+            "id": "E6CF91A6-5718-360C-9C5C-3330D7D2F73D",
+            "buttons": [
+                {
+                    "centerY": "220.07",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "7DB22450-E0D5-541A-4AF5-3331147B4F25",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "1C4F00EC-C057-354D-12D4-333DEFE03863",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:27.06",
+                    "centerX": "343.79",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "0DBF08CF-142C-E94E-4414-3330D7D65098",
+                    "databegin": "00:03.94"
+                }
+            ]
+        },
+        "A7A855F5-735D-00FE-DAC3-3210708FEFF7": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Quiz 2 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "549A5B72-6B8B-9014-12EE-32F2A5D059F2",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 364.7,
+            "size": "medium",
+            "y": 422.2,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-46.41",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: 10pt;\">C. YouTube sar&agrave; responsabile nei confronti dell'utente per la cancellazione di, corruzione di, o mancata memorizzazione, di Contenuti e altre comunicazioni di dati mantenuti o trasmessi da, o tramite, l'uso del Servizio (Corretta)</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "285.72",
+                    "width": "373.27",
+                    "height": "141.82",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E50C8990-D894-99B0-91B9-F104B4169797",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "2FFFB1CC-A7E1-98EF-4F13-33338FB3BF2A",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "4D42D09C-7142-9C9E-1A73-3210709224F2",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "128.01",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 22px;\">B. I Termini potranno essere accettati semplicemente utilizzando il Servizio</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.43",
+                    "centerX": "-114.13",
+                    "width": "391.75",
+                    "height": "111.37",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "1CD8FABC-54CB-B966-E024-32F9DF28CA67",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "DB850222-2689-7326-920A-32FB88538E59",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "63437666-6BAF-AAE0-DCB4-32107092F03E",
+                    "databegin": "00:02.57"
+                },
+                {
+                    "centerY": "144.52",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #666666; font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 22px;\">D. Google potr&agrave; aggiornare o modificare le Misure di Sicurezza di volta in volta, a condizione che tali&nbsp;aggiornamenti o modifiche non comportino un peggioramento della sicurezza generale dei Servizi del Responsabile</span></span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 3,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:29.03",
+                    "centerX": "284.43",
+                    "width": "384.86",
+                    "height": "136.28",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E3D88CC4-7F57-6FB5-A9DD-32F9D14E9797",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "53725F10-A30E-A161-C356-3305F7C09E9A",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "8CCECBCA-DD79-22E6-529D-321070930068",
+                    "databegin": "00:01.97"
+                },
+                {
+                    "centerY": "-37.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10pt; color: #666666;\">A. Con l'eccezione dei Contenuti sottoposti nel Servizio dall&rsquo;utente, tutti gli altri Contenuti presenti sul Servizio sono, alternativamente, di propriet&agrave; di YouTube o concessi in licenza a YouTube, e sono oggetto di copyright, diritti di marchio e degli altri diritti di propriet&agrave; intellettuale di YouTube o dei licenzianti di YouTube</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 4,
+                    "click": [
+                        {
+                            "value": "rgba(255,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:28.73",
+                    "centerX": "-110.68",
+                    "width": "395.87",
+                    "height": "161.19",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "919E77E0-AEE6-4778-710D-32F99B57DE8C",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "3A50F0F2-51B5-DB8C-3504-32FB6353DC68",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "8230DF86-5890-BE3A-3881-32107093DFA4",
+                    "databegin": "00:02.27"
+                },
+                {
+                    "centerY": "-190.32",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"color: #666666; font-size: 13pt;\">Si ricorda che le Condizioni sul Trattamento dei Dati da parte di youtube operano come addendum al contratto tra te, \"Cliente\", e Google</span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 5,
+                    "scales": true,
+                    "duration": "00:29.57",
+                    "centerX": "81.90",
+                    "width": "777.22",
+                    "height": "46.68",
+                    "id": "79D40571-B05D-9A45-4221-32107093C731",
+                    "databegin": "00:01.43"
+                },
+                {
+                    "centerY": "-256.73",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666;\"><span style=\"font-size: xx-large;\"><span style=\"font-size: 10pt; font-family: Roboto;\">Quale affermazione NON rispetta i Termini di Servizio di Youtube?</span></span><span style=\"font-size: xx-large;\"><span style=\"font-size: medium;\"><br /></span></span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 6,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "21.11",
+                    "width": "550.63",
+                    "height": "47.10",
+                    "id": "20174894-B88E-02DD-DA74-321070934F47",
+                    "databegin": "00:01.00"
+                }
+            ],
+            "id": "A7A855F5-735D-00FE-DAC3-3210708FEFF7"
+        },
+        "1CD8FABC-54CB-B966-E024-32F9DF28CA67": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Risposta sbagliata B REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "660CBC7F-0CBD-D1D6-BC40-32F9DF294E86",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -130.7,
+            "size": "medium",
+            "y": 415.6,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "3C544C7C-41FA-615B-01E1-32F9DF2AFE38",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.11",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Le informazioni riguardanti l&rsquo;accettazione dei termini sono contenute nell&rsquo;articolo 2 dei &ldquo;Termini di Servizio&rdquo; di YouTube:</span></span></p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\"><br />\"2. Accettazione dei Termini<br />2.1 Prima di poter usare il Servizio, l'utente dovr&agrave; accettare i Termini. Il Servizio pu&ograve; essere utilizzato solo previa accettazione dei Termini.<br />2.2 I Termini potranno essere accettati semplicemente utilizzando il Servizio. L'utente riconosce e accetta che YouTube considerer&agrave; l'uso del Servizio da parte sua come accettazione&nbsp;dei Termini da quel momento in poi.<br />2.3 Non potranno utilizzare il Servizio ed accettare i Termini gli utenti: (a) che non abbiano l'et&agrave; prevista dalla legge per stipulare un contratto con YouTube, o (b) ai quali sia vietato o in&nbsp;altro modo legalmente inibito utilizzare o ricevere il Servizio ai sensi della legge italiana nonch&eacute; delle leggi del paese in cui sono residenti o da cui accedono o utilizzano il Servizio.<br />2.4 Consigliamo di stampare o salvare una copia dei Termini per il proprio archivio.\"</span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"color: #666666; font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></span></span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.58",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "13A76B88-9ABB-94DB-D462-32F9DF2A151C",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "1CD8FABC-54CB-B966-E024-32F9DF28CA67",
+            "buttons": [
+                {
+                    "centerY": "155.50",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "A7A855F5-735D-00FE-DAC3-3210708FEFF7",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "7AE65B3D-F3C6-6E09-2F43-32FC4D39CF5D",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": false,
+                    "duration": "00:28.92",
+                    "centerX": "191.52",
+                    "width": "160.00",
+                    "height": "40.00",
+                    "label": "Riprova",
+                    "id": "2126C01B-3975-493D-2581-32F9DF2A117A",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "2E7584B8-8541-A4F9-0735-F0F880716A0C": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Risorsa_3.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Errore 1 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "3D11DA40-4EC8-1F1E-8D05-32E98C5E0274",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 144.3,
+            "size": "medium",
+            "y": -72.25,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-203.92",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"font-size: 10pt; color: #666666;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "6.92",
+                    "width": "621.00",
+                    "height": "36.99",
+                    "id": "53429313-3143-E1F4-EAFC-F0FB4005E45E",
+                    "databegin": "00:00.85"
+                },
+                {
+                    "centerY": "-4.11",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p><span style=\"color: #666666;\"><span style=\"font-size: 10pt;\">I diritti concessi in licenza dall&rsquo;utente sono descritti nell&rsquo;articolo 8 dei &ldquo;Termini di Servizio&rdquo; di YouTube&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">\"8.1 Quando l'utente carica o pubblica Contenuti su YouTube, contestualmente concede\":</span></span></p>\n<p><span style=\"color: #666666;\">&nbsp;</span></p>\n<p><span style=\"font-size: 10pt; color: #666666;\">\"8.1 Quando l'utente carica o pubblica Contenuti su YouTube, contestualmente concede:</span></p>\n<p><span style=\"color: #666666;\">&nbsp;</span></p>\n<p><span style=\"color: #666666;\"><span style=\"font-size: 10pt;\">A) a YouTube, una licenza per il mondo intero, non esclusiva, gratuita, trasferibile (con diritto a concedere sub-</span><span style=\"font-size: 10pt;\">licenze) ad usare, riprodurre, distribuire, preparare opere derivate, visualizzare ed eseguire tali Contenuti in&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">connessione alla fornitura del Servizio ed in altro modo in connessione con la fornitura del Servizio e dell'attivit&agrave;&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">commerciale di YouTube, comprese, a titolo meramente esemplificativo, la promozione e la ridistribuzione di tutto&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">o parte del Servizio (e delle relative opere derivate) [in qualsiasi formato e tramite qualsiasi canale di&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">comunicazione];</span></span></p>\n<p><span style=\"color: #666666;\">&nbsp;</span></p>\n<p><span style=\"font-size: 10pt; color: #666666;\">B) a ciascun utente del Servizio, una licenza per il mondo intero, non esclusiva, gratuita, ad accedere ai suoi</span><br /><span style=\"color: #666666;\"><span style=\"font-size: 10pt;\">Contenuti tramite il Servizio e ad usare, riprodurre, distribuire, preparare opere derivate, visualizzare ed eseguire</span>&nbsp;<span style=\"font-size: 10pt;\">tali Contenuti nella misura permessa dalla funzionalit&agrave; del Servizio ed ai sensi dei presenti Termini.</span></span><br /><span style=\"color: #666666;\"><span style=\"font-size: 10pt;\">8.2 Le licenze di cui sopra concesse da parte dell'utente relative ai Video dell'Utente cesseranno nel momento in</span>&nbsp;<span style=\"font-size: 10pt;\">cui l'utente rimuova o elimini i suoi Video dell'Utente dal Sito web. Le licenze di cui sopra relative ai Commenti</span>&nbsp;<span style=\"font-size: 10pt;\">degli Utenti sono concesse dall'utente per un periodo di tempo indefinito, ma non pregiudicano in altro modo i suoi</span>&nbsp;<span style=\"font-size: 10pt;\">diritti di propriet&agrave;, che rimangono di sua titolarit&agrave; come previsto al precedente articolo 7.2.\"</span></span></p>\n<p><span style=\"color: #666666;\">&nbsp;</span></p>\n<p><span style=\"font-size: 10pt; color: #666666;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\"><span style=\"color: #666666;\">qui</span></a></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:30.15",
+                    "centerX": "71.58",
+                    "width": "751.00",
+                    "height": "331.00",
+                    "id": "25DDC650-B067-6DC9-04CA-0A8B15C4865E",
+                    "databegin": "00:00.85"
+                }
+            ],
+            "id": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
+            "buttons": [
+                {
+                    "centerY": "214.55",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "E563E8F9-6037-9AD9-DFCD-32EB72B44904",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "scales": true,
+                    "duration": "00:28.92",
+                    "centerX": "264.24",
+                    "width": "220.76",
+                    "height": "55.19",
+                    "label": "Riprova",
+                    "id": "B0F4BED5-0CFE-D3B8-4FC9-32EACCC166E7",
+                    "databegin": "00:02.08"
+                }
+            ]
+        },
+        "B45AF92C-7592-01AF-5A8E-33332ACAAAD8": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Vero/Falso 4 REAL",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/youtubeVeroRisorsa_5.png",
+                    "zIndex": 0,
+                    "id": "A54EA665-EA79-4609-48D2-33332ACB7A6B",
+                    "mediaHeight": 770,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1361,
+                    "scales": true,
+                    "duration": "00:30.00",
+                    "centerX": "0.00",
+                    "width": "970.00",
+                    "height": "545.00",
+                    "name": "youtubeVeroRisorsa_5.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 369.45,
+            "size": "medium",
+            "y": 1474.55,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "142.26",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">FALSO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 1,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "236.69",
+                    "width": "178.00",
+                    "height": "58.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": -0.5100039064573036,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": -0.39070281418069575,
+                        "targetSequence": "E00CADDA-C37A-83AA-5AAD-321CEB5587CD",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "A1241858-1864-1722-3E36-334BF1A5A808",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "F6D844C6-2EDB-F8E1-CB9B-33332ACC3018",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "144.49",
+                    "dataend": "00:31.00",
+                    "type": "txt-Default",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt; color: #666666;\">VERO</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "value": "rgba(153,153,153,0.5)",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": true,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "zIndex": 2,
+                    "rollOut": [
+                        {
+                            "value": "rgba(0,0,0,0)",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "background"
+                        }
+                    ],
+                    "scales": true,
+                    "duration": "00:26.99",
+                    "centerX": "-146.41",
+                    "width": "178.00",
+                    "height": "61.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "60D54B99-7217-999B-52C2-33331FE95E54",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "834C06B1-C78F-1247-E5D8-334B7CC1E1AA",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "id": "90CD38F5-2941-3A6E-A430-33332ACD3813",
+                    "databegin": "00:04.01"
+                },
+                {
+                    "centerY": "-123.13",
+                    "dataend": "00:31.00",
+                    "type": "txt-Paragraph",
+                    "text": "<p style=\"text-align: left;\"><span style=\"font-size: xx-large; color: #666666;\"><span class=\"Apple-style-span\" style=\"font-size: 19px; line-height: 22px;\">Qualora Google venisse a conoscenza di un Data Incident segnaler&agrave; al Cliente prontamente il Data Incident e tale segnalazione sar&agrave; considerata come un&nbsp;riconoscimento di responsabilit&agrave; con riguardo al Data Incident</span></span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "scales": true,
+                    "duration": "00:28.71",
+                    "centerX": "77.16",
+                    "width": "736.14",
+                    "height": "155.52",
+                    "id": "E7331113-619C-703C-64BE-33332ACDC051",
+                    "databegin": "00:02.29"
+                },
+                {
+                    "centerY": "-256.94",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #666666; font-size: 13pt;\">Vero o Falso?</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 4,
+                    "scales": true,
+                    "duration": "00:30.09",
+                    "centerX": "-106.36",
+                    "width": "301.00",
+                    "height": "50.29",
+                    "id": "6883A716-3573-7DA1-E18F-33332ACEE601",
+                    "databegin": "00:00.91"
+                }
+            ],
+            "id": "B45AF92C-7592-01AF-5A8E-33332ACAAAD8"
+        }
+    },
+    "share": {
+        "embedWording": "Embed",
+        "enableLinkedIn": true,
+        "thumbnail": null,
+        "enableTumblr": true,
+        "link": null,
+        "customSizeWording": "Custom",
+        "playerWording": "Player",
+        "miniPlayerWording": "Mini player",
+        "removeViaKlynt": true,
+        "shortMessage": "",
+        "horizontalWording": "Horizontal",
+        "shareSequenceWording": "Share sequence",
+        "linkWording": "Link",
+        "verticalWording": "Vertical",
+        "displayMiniPlayerWording": true,
+        "originalSizeWording": "Original",
+        "title": "",
+        "message": "",
+        "socialNetworksWording": "Social Networks",
+        "enableGooglePlus": true
+    },
+    "wording": {
+        "total_duration": "(durée totale : {0})",
+        "total_sequences": "séquences au total",
+        "your_are_here": "Vous êtes ici",
+        "program_percentage_viewed": "du programme vu",
+        "keywords": "mots-clés"
+    },
+    "aliases": {
+        "idToAlias": {
+            "AF881154-2C53-C884-9EEA-2E7CB1684D4C": "Errore_vero_falso_1_REAL",
+            "2957910C-27EC-5A9F-1548-F113D24BB74B": "Hai_vinto",
+            "BF5A8D30-7A1C-A2A3-B3E7-33572E3DEDE4": "Errore_4.2",
+            "DA2CF51B-B7A4-4B48-8685-335754F271F5": "Errore_4.3",
+            "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3": "Quiz_1_REAL",
+            "5C36ACDD-7702-F3D8-DCCF-3330F20936C8": "Errore_vero_falso_3_REAL",
+            "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98": "Home",
+            "E3D88CC4-7F57-6FB5-A9DD-32F9D14E9797": "Risposta_sbagliata_D_REAL",
+            "EAF00619-FE64-2FD8-9779-3381D830B9CA": "Errore_5.3",
+            "E00CADDA-C37A-83AA-5AAD-321CEB5587CD": "Quiz_4_REAL",
+            "919E77E0-AEE6-4778-710D-32F99B57DE8C": "Risposta_sbagliata_A_REAL",
+            "ACC656F0-F5F2-A402-7C02-0A9C63175536": "Terminale",
+            "DB56BAEB-5745-DB20-16DF-33815A3AF801": "Errore_5.2",
+            "3219EF54-BD0B-E39B-ECEB-33813F6CB6F4": "Errore_5.1",
+            "D8ED231B-43F4-F3BC-19C1-3358503E16E9": "Quiz_5_REAL",
+            "60D54B99-7217-999B-52C2-33331FE95E54": "Errore_vero_falso_4_REAL",
+            "7792F56A-E889-614B-3D0F-3331571F254D": "Vero_Falso_3_SISTEMARE",
+            "AE85B9B9-70C3-040B-1AB9-3356DD04AD9C": "Errore_4.1",
+            "7DB22450-E0D5-541A-4AF5-3331147B4F25": "Vero_Falso_2_SISTEMARE",
+            "BE88ED9B-CE3E-DF04-D257-330132CB1F2D": "Schermata_vuota_con_sfondo",
+            "E50C8990-D894-99B0-91B9-F104B4169797": "Vero_Falso_1_REAL",
+            "E6CF91A6-5718-360C-9C5C-3330D7D2F73D": "Errore_vero_falso_2_REAL",
+            "A7A855F5-735D-00FE-DAC3-3210708FEFF7": "Quiz_2_REAL",
+            "1CD8FABC-54CB-B966-E024-32F9DF28CA67": "Risposta_sbagliata_B_REAL",
+            "2E7584B8-8541-A4F9-0735-F0F880716A0C": "Errore_1_REAL",
+            "B45AF92C-7592-01AF-5A8E-33332ACAAAD8": "Vero_Falso_4_REAL"
+        },
+        "aliasToId": {
+            "Errore_vero_falso_3_REAL": "5C36ACDD-7702-F3D8-DCCF-3330F20936C8",
+            "Quiz_1_REAL": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3",
+            "Vero_Falso_4_REAL": "B45AF92C-7592-01AF-5A8E-33332ACAAAD8",
+            "Risposta_sbagliata_D_REAL": "E3D88CC4-7F57-6FB5-A9DD-32F9D14E9797",
+            "Errore_1_REAL": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
+            "Errore_4.2": "BF5A8D30-7A1C-A2A3-B3E7-33572E3DEDE4",
+            "Risposta_sbagliata_B_REAL": "1CD8FABC-54CB-B966-E024-32F9DF28CA67",
+            "Hai_vinto": "2957910C-27EC-5A9F-1548-F113D24BB74B",
+            "Vero_Falso_2_SISTEMARE": "7DB22450-E0D5-541A-4AF5-3331147B4F25",
+            "Errore_vero_falso_1_REAL": "AF881154-2C53-C884-9EEA-2E7CB1684D4C",
+            "Vero_Falso_1_REAL": "E50C8990-D894-99B0-91B9-F104B4169797",
+            "Schermata_vuota_con_sfondo": "BE88ED9B-CE3E-DF04-D257-330132CB1F2D",
+            "Errore_vero_falso_2_REAL": "E6CF91A6-5718-360C-9C5C-3330D7D2F73D",
+            "Errore_5.2": "DB56BAEB-5745-DB20-16DF-33815A3AF801",
+            "Vero_Falso_3_SISTEMARE": "7792F56A-E889-614B-3D0F-3331571F254D",
+            "Errore_vero_falso_4_REAL": "60D54B99-7217-999B-52C2-33331FE95E54",
+            "Terminale": "ACC656F0-F5F2-A402-7C02-0A9C63175536",
+            "Quiz_5_REAL": "D8ED231B-43F4-F3BC-19C1-3358503E16E9",
+            "Errore_5.1": "3219EF54-BD0B-E39B-ECEB-33813F6CB6F4",
+            "Home": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
+            "Errore_4.1": "AE85B9B9-70C3-040B-1AB9-3356DD04AD9C",
+            "Quiz_2_REAL": "A7A855F5-735D-00FE-DAC3-3210708FEFF7",
+            "Risposta_sbagliata_A_REAL": "919E77E0-AEE6-4778-710D-32F99B57DE8C",
+            "Quiz_4_REAL": "E00CADDA-C37A-83AA-5AAD-321CEB5587CD",
+            "Errore_5.3": "EAF00619-FE64-2FD8-9779-3381D830B9CA",
+            "Errore_4.3": "DA2CF51B-B7A4-4B48-8685-335754F271F5"
+        }
+    },
     "menu": {
-        "displayBackgroundImage": false,
-        "searchWidget": "B880E4BA-B936-6200-667E-F0E7CE7BE6B0",
-        "offset_sequence": 12,
+        "displayBackgroundImage": true,
         "widgets": [
             {
                 "type": "index",
                 "params": {
                     "displayDescriptions": true,
                     "displayDuration": true,
+                    "layout": "grid",
                     "sequences": [
                         "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
                         "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3",
-                        "55096CA0-121C-4358-DA0C-F0F82D45EE1E",
                         "2E7584B8-8541-A4F9-0735-F0F880716A0C",
                         "E50C8990-D894-99B0-91B9-F104B4169797",
                         "2957910C-27EC-5A9F-1548-F113D24BB74B",
-                        "D64DEE05-9E5F-31C9-A354-0A87F61D447A",
                         "ACC656F0-F5F2-A402-7C02-0A9C63175536",
-                        "60858F17-6A39-E725-45EB-2D3BD09527CB",
-                        "F1836DE3-4BAE-E5E4-6D72-2D3BED45E0B5",
-                        "B912C6BD-502C-1DF3-EB35-2E05C659C3FA",
-                        "47C00C78-3451-9361-77FF-2E11F763D951",
                         "AF881154-2C53-C884-9EEA-2E7CB1684D4C",
-                        "BCBD91E0-538A-AB0F-2DFC-2E807E33FF2D",
-                        "2CDBE290-6AE2-0F6D-4EC4-2E80A3FF21C2",
-                        "F060A4BB-2423-7BD7-F84B-2E874B533F3E",
-                        "82D2DA94-89B3-FA22-EA42-2E89397E930B",
-                        "55B21372-7B09-3308-8112-2E8D4A003381",
-                        "692B86D4-FD31-AAE8-1E2A-2E8DDE3C8728",
-                        "7A4E5A69-DA5A-58D7-0A0C-2E9C008E17EF",
-                        "C2C84ABB-EC51-A390-1D58-2E9CD639618C",
-                        "2D9A7C56-DBF8-FFBB-BEBC-2E9CDD40607E",
-                        "B6972240-AB43-8411-4A02-2EA0DCE339BA",
-                        "307287DB-C4EF-EC7A-B880-2EA0F8ABB4AC",
-                        "D8D096C6-4D2F-C087-B643-2EA1117F594E"
-                    ],
-                    "layout": "grid"
+                        "A7A855F5-735D-00FE-DAC3-3210708FEFF7",
+                        "E00CADDA-C37A-83AA-5AAD-321CEB5587CD",
+                        "919E77E0-AEE6-4778-710D-32F99B57DE8C",
+                        "E3D88CC4-7F57-6FB5-A9DD-32F9D14E9797",
+                        "1CD8FABC-54CB-B966-E024-32F9DF28CA67",
+                        "BE88ED9B-CE3E-DF04-D257-330132CB1F2D",
+                        "E6CF91A6-5718-360C-9C5C-3330D7D2F73D",
+                        "5C36ACDD-7702-F3D8-DCCF-3330F20936C8",
+                        "7DB22450-E0D5-541A-4AF5-3331147B4F25",
+                        "7792F56A-E889-614B-3D0F-3331571F254D",
+                        "60D54B99-7217-999B-52C2-33331FE95E54",
+                        "B45AF92C-7592-01AF-5A8E-33332ACAAAD8",
+                        "AE85B9B9-70C3-040B-1AB9-3356DD04AD9C",
+                        "BF5A8D30-7A1C-A2A3-B3E7-33572E3DEDE4",
+                        "DA2CF51B-B7A4-4B48-8685-335754F271F5",
+                        "D8ED231B-43F4-F3BC-19C1-3358503E16E9",
+                        "3219EF54-BD0B-E39B-ECEB-33813F6CB6F4",
+                        "DB56BAEB-5745-DB20-16DF-33815A3AF801",
+                        "EAF00619-FE64-2FD8-9779-3381D830B9CA"
+                    ]
                 },
                 "label": "Index",
                 "id": "C8DDA60E-1A68-E552-4F5C-F0E7CE7D3632"
@@ -44,12 +4065,12 @@ klynt.data = {
             {
                 "type": "credits",
                 "params": {
-                    "aboutColumnText": "apfaisjkfakjfbasj hhhhhhhhhh",
+                    "aboutColumnText": "",
                     "creditsColumnTitle": "Credits",
                     "creditsColumnText": "",
-                    "title": "Prova Quiz",
-                    "aboutColumnTitle": "About",
-                    "subtitle": ""
+                    "subtitle": "YouTube",
+                    "title": "Visioni Future",
+                    "aboutColumnTitle": "About"
                 },
                 "label": "Credits",
                 "id": "57EE3BB5-DFB6-51C3-C77B-F0E7CE7B541B"
@@ -75,163 +4096,9 @@ klynt.data = {
                 "smallSequenceSize": 25
             }
         ],
-        "backgroundImage": null
-    },
-    "advanced": {
-        "enableSwipeNavigation": true,
-        "enableFullWindowMode": true,
-        "hasRemoteVideos": false,
-        "remoteVideosAPILocalBitrate": "best",
-        "enableKeyboardNavigation": true,
-        "remoteVideosAPIURL": "http://api.klynt.net/video/klynt-video-api.php",
-        "enableScrollNavigation": true
-    },
-    "miniPlayer": {
-        "launchAppWording": "Then Launch Project",
-        "thanksForWatchingWording": "Thanks for watching!",
-        "resumePlaybackWording": "Resume playback?",
-        "fullscreenInfoWording": "This program will launch in fullscreen",
-        "yesWording": "Yes",
-        "title": "Prova Quiz",
-        "noWording": "No",
-        "analyticsKey": "",
-        "thumbnail": "Medias/Photos/yt_logo_rgb_dark.png",
-        "redirectToMobileApp": "auto",
-        "downloadAppWording": "Download App",
-        "url": "",
-        "description": ""
-    },
-    "mainSequence": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
-    "share": {
-        "enableLinkedIn": true,
-        "displayMiniPlayerWording": true,
-        "enableTumblr": true,
-        "customSizeWording": "Custom",
-        "thumbnail": null,
-        "playerWording": "Player",
-        "miniPlayerWording": "Mini player",
-        "shortMessage": "",
-        "horizontalWording": "Horizontal",
-        "shareSequenceWording": "Share sequence",
-        "linkWording": "Link",
-        "verticalWording": "Vertical",
-        "socialNetworksWording": "Social Networks",
-        "removeViaKlynt": true,
-        "embedWording": "Embed",
-        "title": "",
-        "originalSizeWording": "Original",
-        "message": "",
-        "link": null,
-        "enableGooglePlus": true
-    },
-    "footer": {
-        "logo": {
-            "url": "http://www.klynt.net",
-            "tooltip": "null",
-            "image": null
-        },
-        "height": 26,
-        "buttons": [
-            {
-                "type": "share",
-                "label": "Share",
-                "icon": "share"
-            },
-            {
-                "type": "sound",
-                "label": "Sound",
-                "icon": "sound"
-            },
-            {
-                "type": "fullscreen",
-                "label": "Fullscreen",
-                "icon": "fullscreen"
-            },
-            {
-                "type": "klynt",
-                "label": "Made with",
-                "icon": "klynt"
-            }
-        ],
-        "items": [
-            {
-                "label": "Index",
-                "action": {
-                    "type": "openWidget",
-                    "target": "C8DDA60E-1A68-E552-4F5C-F0E7CE7D3632"
-                }
-            },
-            {
-                "label": "Credits",
-                "action": {
-                    "type": "openWidget",
-                    "target": "57EE3BB5-DFB6-51C3-C77B-F0E7CE7B541B"
-                }
-            }
-        ]
-    },
-    "wording": {
-        "total_duration": "(durée totale : {0})",
-        "total_sequences": "séquences au total",
-        "program_percentage_viewed": "du programme vu",
-        "keywords": "mots-clés",
-        "your_are_here": "Vous êtes ici"
-    },
-    "aliases": {
-        "idToAlias": {
-            "D8D096C6-4D2F-C087-B643-2EA1117F594E": "Copy_of_Risposta_sbagliata_3C",
-            "2D9A7C56-DBF8-FFBB-BEBC-2E9CDD40607E": "Risposta_sbagliata_3",
-            "B6972240-AB43-8411-4A02-2EA0DCE339BA": "Risposta_sbagliata_1A",
-            "BCBD91E0-538A-AB0F-2DFC-2E807E33FF2D": "Vero_Falso_2",
-            "2E7584B8-8541-A4F9-0735-F0F880716A0C": "Errore_1",
-            "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3": "Quiz_1",
-            "82D2DA94-89B3-FA22-EA42-2E89397E930B": "Errore_vero_falso_3",
-            "B912C6BD-502C-1DF3-EB35-2E05C659C3FA": "Quiz_4",
-            "E50C8990-D894-99B0-91B9-F104B4169797": "Vero_Falso_1",
-            "D64DEE05-9E5F-31C9-A354-0A87F61D447A": "Risposta_sbagliata_A",
-            "2CDBE290-6AE2-0F6D-4EC4-2E80A3FF21C2": "Errore_vero_falso_2",
-            "307287DB-C4EF-EC7A-B880-2EA0F8ABB4AC": "Copy_of_Risposta_sbagliata_2B",
-            "ACC656F0-F5F2-A402-7C02-0A9C63175536": "Terminale",
-            "60858F17-6A39-E725-45EB-2D3BD09527CB": "Risposta_sbagliata_B",
-            "55B21372-7B09-3308-8112-2E8D4A003381": "Vero_Falso_4",
-            "7A4E5A69-DA5A-58D7-0A0C-2E9C008E17EF": "Risposta_sbagliata_1",
-            "692B86D4-FD31-AAE8-1E2A-2E8DDE3C8728": "Errore_vero_falso_4",
-            "F060A4BB-2423-7BD7-F84B-2E874B533F3E": "Vero_Falso_3",
-            "47C00C78-3451-9361-77FF-2E11F763D951": "Quiz_5",
-            "AF881154-2C53-C884-9EEA-2E7CB1684D4C": "Errore_vero_falso_1",
-            "F1836DE3-4BAE-E5E4-6D72-2D3BED45E0B5": "Risposta_sbagliata_D",
-            "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98": "Home",
-            "C2C84ABB-EC51-A390-1D58-2E9CD639618C": "Risposta_sbagliata_2",
-            "55096CA0-121C-4358-DA0C-F0F82D45EE1E": "Quiz_2",
-            "2957910C-27EC-5A9F-1548-F113D24BB74B": "Hai_vinto"
-        },
-        "aliasToId": {
-            "Risposta_sbagliata_A": "D64DEE05-9E5F-31C9-A354-0A87F61D447A",
-            "Copy_of_Risposta_sbagliata_3C": "D8D096C6-4D2F-C087-B643-2EA1117F594E",
-            "Vero_Falso_1": "E50C8990-D894-99B0-91B9-F104B4169797",
-            "Quiz_2": "55096CA0-121C-4358-DA0C-F0F82D45EE1E",
-            "Quiz_4": "B912C6BD-502C-1DF3-EB35-2E05C659C3FA",
-            "Risposta_sbagliata_2": "C2C84ABB-EC51-A390-1D58-2E9CD639618C",
-            "Errore_vero_falso_3": "82D2DA94-89B3-FA22-EA42-2E89397E930B",
-            "Quiz_1": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3",
-            "Risposta_sbagliata_D": "F1836DE3-4BAE-E5E4-6D72-2D3BED45E0B5",
-            "Errore_vero_falso_1": "AF881154-2C53-C884-9EEA-2E7CB1684D4C",
-            "Errore_vero_falso_4": "692B86D4-FD31-AAE8-1E2A-2E8DDE3C8728",
-            "Quiz_5": "47C00C78-3451-9361-77FF-2E11F763D951",
-            "Vero_Falso_4": "55B21372-7B09-3308-8112-2E8D4A003381",
-            "Errore_1": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
-            "Risposta_sbagliata_B": "60858F17-6A39-E725-45EB-2D3BD09527CB",
-            "Vero_Falso_2": "BCBD91E0-538A-AB0F-2DFC-2E807E33FF2D",
-            "Terminale": "ACC656F0-F5F2-A402-7C02-0A9C63175536",
-            "Risposta_sbagliata_1A": "B6972240-AB43-8411-4A02-2EA0DCE339BA",
-            "Copy_of_Risposta_sbagliata_2B": "307287DB-C4EF-EC7A-B880-2EA0F8ABB4AC",
-            "Risposta_sbagliata_1": "7A4E5A69-DA5A-58D7-0A0C-2E9C008E17EF",
-            "Vero_Falso_3": "F060A4BB-2423-7BD7-F84B-2E874B533F3E",
-            "Home": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
-            "Risposta_sbagliata_3": "2D9A7C56-DBF8-FFBB-BEBC-2E9CDD40607E",
-            "Hai_vinto": "2957910C-27EC-5A9F-1548-F113D24BB74B",
-            "Errore_vero_falso_2": "2CDBE290-6AE2-0F6D-4EC4-2E80A3FF21C2"
-        }
+        "searchWidget": "B880E4BA-B936-6200-667E-F0E7CE7BE6B0",
+        "offset_sequence": 12,
+        "backgroundImage": "Player/css/editor/img/background.png"
     },
     "general": {
         "width": 970,
@@ -239,3372 +4106,24 @@ klynt.data = {
         "height": 545,
         "overlayCloseButtonRight": 16,
         "analyticsKey": "",
-        "username": "bitpop",
-        "description": "apfaisjkfakjfbasj hhhhhhhhhh",
+        "description": "",
         "mapsKey": "",
-        "title": "Prova Quiz",
-        "modificationDate": 1546970735941,
-        "keywords": "ciao gino",
-        "editorVersionNumber": "3.5.007",
-        "primaryColor": 3355443,
+        "title": "Visioni Future",
         "author": "bitpop",
-        "editorVersionLabel": "Klynt 3.5.007",
-        "secondaryColor": 16777215,
-        "tertiaryColor": 15286861,
-        "projectId": "7E4FDD91-2B52-271D-8980-F0E7C151DF4C",
-        "mainFontName": "Open Sans",
+        "modificationDate": 1547111315666,
         "overlayCloseButtonTop": 16,
+        "primaryColor": 3355443,
+        "editorVersionNumber": "3.5.007",
+        "username": "bitpop",
+        "secondaryColor": 6710886,
+        "editorVersionLabel": "Klynt 3.5.007",
+        "tertiaryColor": 15286861,
+        "mainFontName": "Roboto",
+        "ratio": "16/9",
+        "projectId": "7E4FDD91-2B52-271D-8980-F0E7C151DF4C",
         "mainFontSize": 14,
         "level": 5,
         "creationDate": 1545934979410,
-        "ratio": "16/9"
-    },
-    "sequences": {
-        "D8D096C6-4D2F-C087-B643-2EA1117F594E": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "47C00C78-3451-9361-77FF-2E11F763D951",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "C6839EC5-7C83-D3DA-61C2-2EA2D9578F8C",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "3E6DC00A-33C4-7B19-C947-2EA111810341"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 1553.25,
-            "hideThumbnailInMindmap": false,
-            "y": 257.65,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Copy of Risposta sbagliata 3C",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "93F5C89A-030E-5E2E-9BEF-2EA11180EADC",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "",
-                    "id": "06F484AD-6493-AA27-EB84-2EA11180ABE3",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "D8D096C6-4D2F-C087-B643-2EA1117F594E"
-        },
-        "2D9A7C56-DBF8-FFBB-BEBC-2E9CDD40607E": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "B912C6BD-502C-1DF3-EB35-2E05C659C3FA",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "F1B81FC1-6B59-F92B-83FF-2E9E6BCED5F3",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "E2E4BC36-F964-FFD8-13C7-2E9CDD42E128"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 1305.3,
-            "hideThumbnailInMindmap": false,
-            "y": -237.85000000000002,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Risposta sbagliata 3",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "78FEEC30-4C71-DE3A-F97D-2E9CDD418A4A",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "",
-                    "id": "3F59E567-C656-D2B9-07A2-2E9CDD421EF8",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "2D9A7C56-DBF8-FFBB-BEBC-2E9CDD40607E"
-        },
-        "B6972240-AB43-8411-4A02-2EA0DCE339BA": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "47C00C78-3451-9361-77FF-2E11F763D951",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "12F78501-3DF7-027E-760D-2EA2348C6AA5",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "1.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "FABD6FC0-7F42-2305-2F49-2EA0DCE65E54"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 1552.5,
-            "hideThumbnailInMindmap": false,
-            "y": -44.25,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Risposta sbagliata 1A",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "CDDF3995-D8FB-6063-2A9B-2EA0DCE5E52A",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "",
-                    "id": "40A4ED08-0051-7FC1-0922-2EA0DCE5C2A2",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "B6972240-AB43-8411-4A02-2EA0DCE339BA"
-        },
-        "BCBD91E0-538A-AB0F-2DFC-2E807E33FF2D": {
-            "images": [
-                {
-                    "right": "50.00",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "C0A9B209-9537-9085-DA38-2E807E367E20",
-                    "horizontalAlign": "center",
-                    "databegin": "00:00.00",
-                    "top": "15.00",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 4,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "234.00",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "53.00",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 359.6,
-            "hideThumbnailInMindmap": false,
-            "y": -169.35,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Vero/Falso 2",
-            "texts": [
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">FALSO</span></p>",
-                    "id": "56D1DCB2-D68E-BDFE-C0B5-2E807E34F980",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "230.00",
-                    "width": "178.00",
-                    "height": "58.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "2CDBE290-6AE2-0F6D-4EC4-2E80A3FF21C2",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "6543C16B-9237-1686-69C8-2E842A523BAB",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">VERO</span></p>",
-                    "id": "8351CAB3-4E28-FD81-458F-2E807E355D8E",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-230.00",
-                    "width": "178.00",
-                    "height": "61.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "F060A4BB-2423-7BD7-F84B-2E874B533F3E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "A4ADEAFC-2751-680A-48B3-2E8C7139A485",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "-50.00",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: xx-large;\"><span class=\"Apple-style-span\" style=\"font-size: 19px; line-height: 22px;\">Google potrebbe opporsi ad un qualsiasi auditor terzo nominato dal Cliente per effettuare una qualsiasi verifica se l'auditor non sia, secondo la&nbsp;ragionevole opinione di Google, adeguatamente qualificato o indipendente, oppure un concorrente di Google o comunque manifestamente&nbsp;inadatto</span></span></p>",
-                    "id": "1D77F11A-9C2D-C3E1-1217-2E807E35D89D",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:02.29",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:28.71",
-                    "centerX": "0.00",
-                    "width": "673.00",
-                    "height": "215.00",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "110.00",
-                    "type": "txt-Title-2",
-                    "text": "<p>VERO O FALSO?</p>",
-                    "id": "5FB41844-3163-689B-04B3-2E807E355E76",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.91",
-                    "top": "35.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:30.09",
-                    "width": "301.00",
-                    "height": "67.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "BCBD91E0-538A-AB0F-2DFC-2E807E33FF2D"
-        },
-        "2E7584B8-8541-A4F9-0735-F0F880716A0C": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "9DB37F8C-85D5-0C32-0F31-0A8BE0B5B19F",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.64",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:29.36",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "7E973BA5-A83F-9DEB-7909-F0F942C53CC9"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 128.9,
-            "hideThumbnailInMindmap": false,
-            "y": 378.75,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Errore 1",
-            "texts": [
-                {
-                    "left": "111.23",
-                    "type": "txt-Paragraph",
-                    "text": "<p><span style=\"font-size: 10pt;\">Ooops... Risposta sbagliata... Forse un ripasso ti pu&ograve; fare comodo, dai un'occhiata!</span></p>",
-                    "id": "53429313-3143-E1F4-EAFC-F0FB4005E45E",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "23.93",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "width": "620.99",
-                    "height": "36.99",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p><span style=\"font-size: 10pt;\">I diritti concessi in licenza dall&rsquo;utente sono descritti nell&rsquo;articolo 8 dei &ldquo;Termini di Servizio&rdquo; di YouTube&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">\"8.1 Quando l'utente carica o pubblica Contenuti su YouTube, contestualmente concede:\"</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 10pt;\">8.1 Quando l'utente carica o pubblica Contenuti su YouTube, contestualmente concede:</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 10pt;\">A) a YouTube, una licenza per il mondo intero, non esclusiva, gratuita, trasferibile (con diritto a concedere sub-</span><span style=\"font-size: 10pt;\">licenze) ad usare, riprodurre, distribuire, preparare opere derivate, visualizzare ed eseguire tali Contenuti in&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">connessione alla fornitura del Servizio ed in altro modo in connessione con la fornitura del Servizio e dell'attivit&agrave;&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">commerciale di YouTube, comprese, a titolo meramente esemplificativo, la promozione e la ridistribuzione di tutto&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">o parte del Servizio (e delle relative opere derivate) [in qualsiasi formato e tramite qualsiasi canale di&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">comunicazione];</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 10pt;\">B) a ciascun utente del Servizio, una licenza per il mondo intero, non esclusiva, gratuita, ad accedere ai suoi</span><br /><span style=\"font-size: 10pt;\">Contenuti tramite il Servizio e ad usare, riprodurre, distribuire, preparare opere derivate, visualizzare ed eseguire</span>&nbsp;<span style=\"font-size: 10pt;\">tali Contenuti nella misura permessa dalla funzionalit&agrave; del Servizio ed ai sensi dei presenti Termini.</span><br /><span style=\"font-size: 10pt;\">8.2 Le licenze di cui sopra concesse da parte dell'utente relative ai Video dell'Utente cesseranno nel momento in</span>&nbsp;<span style=\"font-size: 10pt;\">cui l'utente rimuova o elimini i suoi Video dell'Utente dal Sito web. Le licenze di cui sopra relative ai Commenti</span>&nbsp;<span style=\"font-size: 10pt;\">degli Utenti sono concesse dall'utente per un periodo di tempo indefinito, ma non pregiudicano in altro modo i suoi</span>&nbsp;<span style=\"font-size: 10pt;\">diritti di propriet&agrave;, che rimangono di sua titolarit&agrave; come previsto al precedente articolo 7.2.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 10pt;\">Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></span></p>",
-                    "id": "25DDC650-B067-6DC9-04CA-0A8B15C4865E",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "750.99",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "2E7584B8-8541-A4F9-0735-F0F880716A0C"
-        },
-        "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3": {
-            "images": [
-                {
-                    "right": "9.87",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "B112F8CF-2F2B-649F-6681-2900218A10B5",
-                    "horizontalAlign": "center",
-                    "databegin": "00:01.00",
-                    "top": "20.22",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": true,
-                    "duration": "00:30.00",
-                    "width": "303.26",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "67.75",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 366.05,
-            "hideThumbnailInMindmap": false,
-            "y": 370.8,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Quiz 1",
-            "texts": [
-                {
-                    "centerY": "52.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\">&nbsp;<span class=\"Apple-style-span\" style=\"line-height: 26px; font-size: 13pt;\">C. Una licenza per il mondo intero non esclusiva, gratuita e trasferibile che permette di riprodurre e distribuire tali Contenuti (Corretta)</span></p>",
-                    "id": "8D916797-FC41-A529-4663-F0F2F7D065F8",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.97",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:29.03",
-                    "centerX": "230.01",
-                    "width": "400.00",
-                    "height": "109.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "55096CA0-121C-4358-DA0C-F0F82D45EE1E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "5E91B131-32BD-5837-7F1B-F0FCDABF5372",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "167.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 13pt;\">B. Una licenza di marchi territoriale, con la quale si possono limitare i luoghi nei quali concedere la licenza</span></p>",
-                    "id": "0F6601C7-C43F-2F14-5236-290116BF181F",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.97",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.03",
-                    "centerX": "-230.00",
-                    "width": "400.00",
-                    "height": "109.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "ADDFD97B-BB1A-0EB9-E502-290116C14394",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "167.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 13pt;\">D. Una licenza esclusiva totale</span></p>",
-                    "id": "F296B93F-4A91-042F-6DBE-F0F3CD415509",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.97",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:29.03",
-                    "centerX": "230.01",
-                    "width": "400.00",
-                    "height": "109.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "27A1B11E-0035-ED6F-6582-0A89BF114A34",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "52.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 13pt;\">A. Una licenza esclusiva parziale riguardante solamente un certo tipo di Contenuti</span></p>",
-                    "id": "75D3E5EA-A502-1FBB-E62E-2901DCCD28D4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.97",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:29.03",
-                    "centerX": "-230.00",
-                    "width": "400.00",
-                    "height": "109.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "2E7584B8-8541-A4F9-0735-F0F880716A0C",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "7DDA84D7-0E25-927A-EEED-2901DCCDB6B2",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "-102.51",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\"><strong>Scegli la risposta corretta:</strong></span></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\">L'utente detiene tutti i diritti di propriet&agrave; sui propri Contenuti, ma deve concedere diritti limitati di</span>&nbsp;<span style=\"font-size: 15pt;\">licenza a YouTube e agli altri utenti del Servizio. Quando l'utente carica o pubblica Contenuti su</span>&nbsp;<span style=\"font-size: 15pt;\">YouTube, concede alla piattaforma:</span></p>",
-                    "id": "3E56CC0A-4641-E757-24FD-F0F1D940557F",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.97",
-                    "dataend": "00:31.00",
-                    "zIndex": 4,
-                    "scales": true,
-                    "duration": "00:29.03",
-                    "centerX": "0.00",
-                    "width": "870.00",
-                    "height": "120.00",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "107.00",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\">QUESITO 1</p>",
-                    "id": "6C128B29-09EF-63F8-5EC6-F0EF3AFA2445",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.00",
-                    "top": "34.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:30.00",
-                    "width": "300.00",
-                    "height": "65.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3"
-        },
-        "82D2DA94-89B3-FA22-EA42-2E89397E930B": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "F060A4BB-2423-7BD7-F84B-2E874B533F3E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "61E498CD-1ED0-E6CD-5755-2E89E51A47FE",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "6FABDB78-428F-6F6E-1759-2E8939854C4A"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 110.55,
-            "hideThumbnailInMindmap": false,
-            "y": -345.8,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Errore vero/falso 3",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "FADA1273-00C2-6631-D7AE-2E893984490E",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "centerY": "0.00",
-                    "type": "txt-Paragraph",
-                    "text": "<p>Nell&rsquo;articolo 7.9 dei &ldquo;Termini di Servizio&rdquo; di YouTube riguardante i contenuti si trova che:</p>\n<p><br />\"7. Contenuti<br />[&hellip;]<br />7.9 L&rsquo;utente inoltre riconosce ed accetta che durante l'utilizzo del Servizio potr&agrave; essere esposto a Contenuti che siano di fatto imprecisi, offensivi, indecenti, o in altro modo per&nbsp;esso riprovevoli. L'utente accetta di rinunciare e con il presente accordo rinuncia a qualsiasi diritto o rimedio legale o secondo equit&agrave; che ha o potrebbe avere nei confronti di&nbsp;YouTube con riferimento ad uno qualsiasi di tali Contenuti.<br />[&hellip;]\"</p>\n<p>&nbsp;</p>\n<p>Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></p>",
-                    "id": "B9BBD3A0-5D49-C3BF-AC16-2E893984D3B1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "223.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "82D2DA94-89B3-FA22-EA42-2E89397E930B"
-        },
-        "B912C6BD-502C-1DF3-EB35-2E05C659C3FA": {
-            "images": [
-                {
-                    "right": "28.05",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "6AB00A75-382D-563B-51BD-2E05C65EBFA3",
-                    "horizontalAlign": "center",
-                    "databegin": "00:00.00",
-                    "top": "15.95",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "225.28",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "48.73",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 682,
-            "hideThumbnailInMindmap": false,
-            "y": 103.85,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Quiz 4",
-            "texts": [
-                {
-                    "centerY": "37.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10pt;\">C.&nbsp;YouTube non concede agli operatori di motori di ricerca pubblici il permesso di usare gli spider per copiare materiale dal Sito web per creare indici di&nbsp;ricerca dei materiali pubblicamente disponibili.</span></p>",
-                    "id": "D8D930B1-7421-315D-66B3-2E05C65C3119",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "230.00",
-                    "width": "400.00",
-                    "height": "139.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "C2C84ABB-EC51-A390-1D58-2E9CD639618C",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "0D575C68-0793-64A5-5F36-2E9F7CC1098F",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "182.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p><span style=\"font-size: 10pt;\">D.&nbsp;Nel caso in cui si continui ad usare il Servizio successivamente alla modifica e pubblicazione dei Termini, tale uso non costituir&agrave; accettazione&nbsp;implicita dei Termini Modificati</span></p>",
-                    "id": "CE6C87F1-7B15-6A1D-2357-2E05C65D4F69",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "230.00",
-                    "width": "400.00",
-                    "height": "139.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "2D9A7C56-DBF8-FFBB-BEBC-2E9CDD40607E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "F6AAAF84-2EDF-A938-DC8D-2E9F96285C62",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "37.66",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 9pt;\">A.&nbsp;Google non pu&ograve; salvare nel tuo Account Google la tua attivit&agrave; sui siti e le app Google, incluse le ricerche e le informazioni associate, come la&nbsp;posizione. Google salva anche attivit&agrave; quali le app che utilizzi, la cronologia di Chrome e i siti visitati sul Web.</span></p>",
-                    "id": "18278CD5-77B7-1602-01FB-2E05C65D645E",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-231.37",
-                    "width": "400.00",
-                    "height": "147.67",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "7A4E5A69-DA5A-58D7-0A0C-2E9C008E17EF",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "56581314-3857-3140-0127-2E9F6511E051",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "188.78",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12pt;\">B. <span style=\"font-size: 10pt;\">Google pu&ograve; modificare le presenti Condizioni per il Trattamento dei Dati se la modifica non amplia l'ambito o rimuove eventuali restrizioni sul&nbsp;trattamento dei Dati Personali del Cliente da parte di Google (Corretta)</span></span></p>",
-                    "id": "3BD5A3EF-5960-6D93-6D12-2E05C65D98F1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-232.70",
-                    "width": "400.00",
-                    "height": "127.32",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "47C00C78-3451-9361-77FF-2E11F763D951",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "FFE21511-BBCC-A93C-0FAF-2E129EF35D0A",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "-103.83",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><strong><span style=\"font-size: x-large;\"><span class=\"Apple-style-span\" style=\"font-size: 17px; line-height: 20px;\">Selezionare la risposta corretta</span></span></strong></p>\n<p style=\"text-align: center;\"><span style=\"font-size: x-large;\"><span class=\"Apple-style-span\" style=\"font-size: 17px; line-height: 20px;\">Si ricorda che le condizioni sul trattamento dei dati da parte di YouTube operano come un addendum al<br />contratto tra te (\"Cliente\") e Google.</span></span></p>",
-                    "id": "A84B8D03-D817-0325-F1B4-2E05C65E8BBF",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 4,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "1.33",
-                    "width": "950.01",
-                    "height": "120.01",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "107.00",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\">QUESITO 4</p>",
-                    "id": "042FFE05-6A6A-E834-959A-2E05C65ED3D6",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.04",
-                    "top": "34.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:27.96",
-                    "width": "300.00",
-                    "height": "65.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "B912C6BD-502C-1DF3-EB35-2E05C659C3FA"
-        },
-        "E50C8990-D894-99B0-91B9-F104B4169797": {
-            "images": [
-                {
-                    "right": "50.00",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "FF3FE303-D5B5-FAE0-E477-2E753E120E3D",
-                    "horizontalAlign": "center",
-                    "databegin": "00:00.00",
-                    "top": "15.00",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 4,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "234.00",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "53.00",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 363.95,
-            "hideThumbnailInMindmap": false,
-            "y": 7.75,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Vero/Falso 1",
-            "texts": [
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">FALSO</span></p>",
-                    "id": "FCF3DFDC-1918-5BB8-F7D1-F104B4174D88",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "230.00",
-                    "width": "178.00",
-                    "height": "58.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "AF881154-2C53-C884-9EEA-2E7CB1684D4C",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "AA0880B1-AA0F-964C-9943-2E7FB328285A",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">VERO</span></p>",
-                    "id": "28D97C57-64EF-1925-ECE1-2E77DF893AFC",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-230.00",
-                    "width": "178.00",
-                    "height": "61.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "BCBD91E0-538A-AB0F-2DFC-2E807E33FF2D",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "C9741C70-1FDC-7701-66E5-2E816375552F",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "right": "137.83",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14pt;\">L&rsquo;audit &egrave; una valutazione indipendente volta a stabilire in che misura siano stati soddisfatti i criteri stabiliti relativamente&nbsp;ad un determinato oggetto. L&rsquo;auditor &egrave; un individuo che possiede le competenze per effettuare un audit.&nbsp;Google consente al Cliente o ad un auditor terzo nominato dal Cliente di condurre audits per verificare li rispetto da parte</span><span>&nbsp;</span><span style=\"font-size: 14pt;\">di Google dei suoi obblighi</span></p>",
-                    "id": "AAA67FA1-B535-6086-5C6F-F104B417779F",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:02.29",
-                    "top": "139.63",
-                    "dataend": "00:31.00",
-                    "bottom": "249.85",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:28.71",
-                    "left": "159.56",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "110.00",
-                    "type": "txt-Title-2",
-                    "text": "<p>VERO O FALSO?</p>",
-                    "id": "11B43477-C3EE-B42C-7FD2-F104B4183250",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.91",
-                    "top": "35.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:30.09",
-                    "width": "301.00",
-                    "height": "67.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "E50C8990-D894-99B0-91B9-F104B4169797"
-        },
-        "D64DEE05-9E5F-31C9-A354-0A87F61D447A": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "55096CA0-121C-4358-DA0C-F0F82D45EE1E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "5F78E5B1-53B2-8A8F-6A2F-0A8CF774883B",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "DA637280-40F5-EA44-79F6-0A87F62906E8"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": -359.35,
-            "hideThumbnailInMindmap": false,
-            "y": 24.6,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Risposta sbagliata A",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "972DC3AE-D25E-4E22-DACA-0A87F625C3A6",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Per quanto riguarda i contenuti sul sito web di YouTube, nell&rsquo;articolo 9 dei &ldquo;Termini di Servizio&rdquo; di YouTube si trova:</p>\n<p><br />9. Contenuto di YouTube sul Sito web<br />9.1 Con l'eccezione dei Contenuti sottoposti nel Servizio dall&rsquo;utente, tutti gli altri Contenuti presenti sul Servizio sono, alternativamente, di propriet&agrave; di YouTube o concessi in licenza a<br />YouTube, e sono oggetto di copyright, diritti di marchio e degli altri diritti di propriet&agrave; intellettuale di YouTube o dei licenzianti di YouTube. Qualsiasi marchio o marchio di servizio di<br />terzi presente sui Contenuti, non caricato n&eacute; pubblicato dall&rsquo;utente, resta un marchio o marchio di servizio dei rispettivi titolari. Tali contenuti non potranno essere scaricati, copiati,<br />riprodotti, distribuiti, trasmessi, diffusi, visualizzati, venduti, concessi in licenza o in altro modo sfruttati per qualsiasi altra finalit&agrave; senza il previo consenso scritto di YouTube o, ove<br />applicabile, dei licenzianti di YouTube. YouTube ed i suoi licenzianti si riservano tutti i diritti non espressamente concessi sui, e rispetto ai, loro Contenuti.</p>\n<p>&nbsp;</p>\n<p>Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></p>",
-                    "id": "15F13984-DA59-B3EC-033A-0A8D26B11652",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "D64DEE05-9E5F-31C9-A354-0A87F61D447A"
-        },
-        "2CDBE290-6AE2-0F6D-4EC4-2E80A3FF21C2": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "BCBD91E0-538A-AB0F-2DFC-2E807E33FF2D",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "C0389DA7-84B3-9DA7-CD6A-2E854B87377A",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "512690B9-C262-7789-79D3-2E80A403BBD7"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 113.3,
-            "hideThumbnailInMindmap": false,
-            "y": -173.65,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Errore vero/falso 2",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "2E757670-F006-879C-FF3B-2E80A402C7A0",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Nell&rsquo;articolo 7.5 delle \"Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo; si possono trovare le informazioni relative alle revisioni e audits:</p>\n<p><br />\"7. Sicurezza dei Dati<br />[&hellip;]<br />7.5 Revisioni e Audits del Rispetto degli obblighi.<br />[&hellip;]<br />7.5.2 Diritti di Verifica del Cliente.<br />[&hellip;]<br />(b) Il Cliente pu&ograve; anche condurre un'attivit&agrave; di audit sul rispetto da parte di Google dei suoi obblighi previsti dalle presenti Condizioni per il&nbsp;Trattamento dei Dati controllando il certificato predisposto per la Certificazione ISO 27001 (che riflette i risultati di un'attivit&agrave; di audit condotta da un&nbsp;auditor terzo), qualora tale certificazione sia disponibile al momento della richiesta del Cliente.<br />[&hellip;]\"</p>\n<p>&nbsp;</p>\n<p>Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\">qui</a></p>",
-                    "id": "04F2A39C-1944-BD12-09CC-2E80A403BF50",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "2CDBE290-6AE2-0F6D-4EC4-2E80A3FF21C2"
-        },
-        "307287DB-C4EF-EC7A-B880-2EA0F8ABB4AC": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "47C00C78-3451-9361-77FF-2E11F763D951",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "5C7AB02C-14C9-63AD-C40E-2EA28820F222",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "5876FB41-96D5-26A8-933F-2EA0F8B10B0E"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 1552.9,
-            "hideThumbnailInMindmap": false,
-            "y": 108.85,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Copy of Risposta sbagliata 2B",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "2DE78996-8E5D-A259-BFE3-2EA0F8AF2640",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "",
-                    "id": "1924C7C2-EA9B-8719-7A63-2EA0F8B01880",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "307287DB-C4EF-EC7A-B880-2EA0F8ABB4AC"
-        },
-        "ACC656F0-F5F2-A402-7C02-0A9C63175536": {
-            "buttons": [
-                {
-                    "centerY": "0.00",
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "AE29B98B-E546-569A-058B-0AA6B0013B03",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:16.25",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:14.75",
-                    "centerX": "-0.00",
-                    "width": "208.11",
-                    "height": "52.03",
-                    "label": "Home",
-                    "id": "7A36F669-666A-EF4F-9E72-0AA6B000F1BE"
-                }
-            ],
-            "hideInMindmap": false,
-            "iframes": [
-                {
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.10",
-                    "top": "55.00",
-                    "dataend": "00:31.00",
-                    "bottom": "10.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.90",
-                    "centerX": "0.00",
-                    "width": "865.00",
-                    "code": "<iframe src=\"https://antocr.github.io/Terminal/\" style=\"border:0px #ffffff none;\" name=\"myiFrame\" scrolling=\"yes\" frameborder=\"1\" marginheight=\"0px\" marginwidth=\"0px\" height=\"400px\" width=\"600px\" allowfullscreen></iframe>",
-                    "id": "A6410EC2-766D-5439-2339-0A9C6319E23D"
-                }
-            ],
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 690.05,
-            "hideThumbnailInMindmap": false,
-            "y": 720.45,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Terminale",
-            "id": "ACC656F0-F5F2-A402-7C02-0A9C63175536"
-        },
-        "60858F17-6A39-E725-45EB-2D3BD09527CB": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "55096CA0-121C-4358-DA0C-F0F82D45EE1E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "C7429CCC-68F7-726F-81FA-2D3BD0A51207",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:02.98",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:28.02",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "05B7193E-649F-73DE-7107-2D3BD09F17AE"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": -355.3,
-            "hideThumbnailInMindmap": false,
-            "y": 201.15,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Risposta sbagliata B",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "ECB76FC4-56B0-6205-09E2-2D3BD09D760A",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Le informazioni riguardanti l&rsquo;accettazione dei termini sono contenute nell&rsquo;articolo 2 dei &ldquo;Termini di Servizio&rdquo; di YouTube:<br />2. Accettazione dei Termini<br />2.1 Prima di poter usare il Servizio, l'utente dovr&agrave; accettare i Termini. Il Servizio pu&ograve; essere utilizzato solo previa accettazione dei Termini.<br />2.2 I Termini potranno essere accettati semplicemente utilizzando il Servizio. L'utente riconosce e accetta che YouTube considerer&agrave; l'uso<br />del Servizio da parte sua come accettazione dei Termini da quel momento in poi.</p>\n<p>&nbsp;</p>\n<p>Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\">qui</a></p>",
-                    "id": "875640FB-CA7D-17CB-F9C1-2D3BD09FA212",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.56",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.44",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "60858F17-6A39-E725-45EB-2D3BD09527CB"
-        },
-        "55B21372-7B09-3308-8112-2E8D4A003381": {
-            "images": [
-                {
-                    "right": "50.00",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "C0FABD10-08FD-8827-5CFC-2E8D4A061239",
-                    "horizontalAlign": "center",
-                    "databegin": "00:00.00",
-                    "top": "15.00",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 4,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "234.00",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "53.00",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 670.7,
-            "hideThumbnailInMindmap": false,
-            "y": -350.3,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Vero/Falso 4",
-            "texts": [
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">FALSO</span></p>",
-                    "id": "C03D586C-1FE6-C4B6-F6E9-2E8D4A0452D0",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "230.00",
-                    "width": "178.00",
-                    "height": "58.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "B912C6BD-502C-1DF3-EB35-2E05C659C3FA",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "73116C2B-07AA-DE79-FE22-2E8F13F6F734",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">VERO</span></p>",
-                    "id": "B960F6C2-DFD3-E606-8184-2E8D4A0516D1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-230.00",
-                    "width": "178.00",
-                    "height": "61.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "692B86D4-FD31-AAE8-1E2A-2E8DDE3C8728",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "F8BB27F3-248E-4AEF-7C5D-2E8F41F8D37B",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "-17.96",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\">Qualora Google venisse a conoscenza di un Data Incident segnaler&agrave; al Cliente prontamente il Data Incident e tale segnalazione sar&agrave; considerata come un riconoscimento di responsabilit&agrave;&nbsp;con riguardo al Data Incident.</span></p>",
-                    "id": "709D0E25-D072-83EC-E7DE-2E8D4A06C14F",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:02.29",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:28.71",
-                    "centerX": "-0.00",
-                    "width": "672.99",
-                    "height": "128.19",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "110.00",
-                    "type": "txt-Title-2",
-                    "text": "<p>VERO O FALSO?</p>",
-                    "id": "59130A58-EB09-4C7F-DA91-2E8D4A06DAEB",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.91",
-                    "top": "35.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:30.09",
-                    "width": "301.00",
-                    "height": "67.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "55B21372-7B09-3308-8112-2E8D4A003381"
-        },
-        "7A4E5A69-DA5A-58D7-0A0C-2E9C008E17EF": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "B912C6BD-502C-1DF3-EB35-2E05C659C3FA",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "F444E1F0-0969-CB67-59A3-2E9DEDE5CF41",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "1.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "BA6116EF-D860-4FF2-F505-2E9C0090FA75"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 921.6,
-            "hideThumbnailInMindmap": false,
-            "y": -243.75,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Risposta sbagliata 1",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "3BDBFBE4-7E28-2522-77E1-2E9C0090FFBA",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "",
-                    "id": "39D77A1C-1E8F-0F85-84E4-2E9C0090E11E",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "7A4E5A69-DA5A-58D7-0A0C-2E9C008E17EF"
-        },
-        "692B86D4-FD31-AAE8-1E2A-2E8DDE3C8728": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "692B86D4-FD31-AAE8-1E2A-2E8DDE3C8728",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "88AC1AE4-B9EF-7ECA-D62B-2E8FB7CA48B5",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "CA09992D-EC6A-8613-25C5-2E8DDE3E80DF"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 667.2,
-            "hideThumbnailInMindmap": false,
-            "y": -533.75,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Errore vero/falso 4",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "F601503F-2492-DAAD-1BE1-2E8DDE3DBFBB",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "centerY": "0.00",
-                    "type": "txt-Paragraph",
-                    "text": "<p>L&rsquo;articolo 7.2 delle \"Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo; riguarda i &ldquo;data incidents&rdquo; :</p>\n<p><br />\"7. Sicurezza dei Dati<br />[&hellip;]<br />7.2 Data Incidents.<br />7.2.1 Segnalazione di un Data Incident. Qualora Google venisse a conoscenza di un Data Incident, Google: (a) segnaler&agrave; al Cliente prontamente e senza indebito ritardo il Data Incident; e<br />(b) adotter&agrave; prontamente tutte le misure necessarie per minimizzare il danno e mettere in sicurezza I Dati Personali del Cliente.\"</p>\n<p>&nbsp;</p>\n<p>Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\">qui</a></p>",
-                    "id": "B69E974E-62F6-788F-6653-2E8DDE3E7352",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "223.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "692B86D4-FD31-AAE8-1E2A-2E8DDE3C8728"
-        },
-        "F060A4BB-2423-7BD7-F84B-2E874B533F3E": {
-            "images": [
-                {
-                    "right": "50.00",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "ABC83698-48F4-2A7A-817C-2E874B561991",
-                    "horizontalAlign": "center",
-                    "databegin": "00:00.00",
-                    "top": "15.00",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 4,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "234.00",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "53.00",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 361.75,
-            "hideThumbnailInMindmap": false,
-            "y": -349.9,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Vero/Falso 3",
-            "texts": [
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">FALSO</span></p>",
-                    "id": "EBC18F22-13ED-5384-5157-2E874B543F1A",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "230.00",
-                    "width": "178.00",
-                    "height": "58.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "55B21372-7B09-3308-8112-2E8D4A003381",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "E317E3B0-D341-FED9-27E2-2E8D79DB8D05",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "130.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">VERO</span></p>",
-                    "id": "88B7B983-EFAB-E3CC-CACB-2E874B5528C0",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-230.00",
-                    "width": "178.00",
-                    "height": "61.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "82D2DA94-89B3-FA22-EA42-2E89397E930B",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "AE189314-F418-2764-7218-2E896ECE6920",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "0.00",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\"><span class=\"Apple-style-span\" style=\"line-height: 22px;\">Se l&rsquo;utente viene esposto a Contenuti imprecisi, offensivi, indecenti, o in altro modo per esso riprovevoli, ha diritto a rimedi legali nei confronti di YouTube con riferimento ad uno&nbsp;qualsiasi di tali Contenuti</span></span></p>",
-                    "id": "80E2964A-D01E-A4DE-6C61-2E874B55F736",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:02.29",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:28.71",
-                    "centerX": "0.00",
-                    "width": "673.00",
-                    "height": "164.00",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "110.00",
-                    "type": "txt-Title-2",
-                    "text": "<p>VERO O FALSO?</p>",
-                    "id": "4AEE9960-CCA6-F0A8-36D5-2E874B55A130",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.91",
-                    "top": "35.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:30.09",
-                    "width": "301.00",
-                    "height": "67.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "F060A4BB-2423-7BD7-F84B-2E874B533F3E"
-        },
-        "47C00C78-3451-9361-77FF-2E11F763D951": {
-            "images": [
-                {
-                    "right": "28.05",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "2C3E88E9-E923-945A-7757-2E11F767B341",
-                    "horizontalAlign": "center",
-                    "databegin": "00:00.00",
-                    "top": "15.95",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "225.28",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "48.73",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 989.95,
-            "hideThumbnailInMindmap": false,
-            "y": 102.55,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Quiz 5",
-            "texts": [
-                {
-                    "centerY": "-7.16",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10pt;\">C.&nbsp;Nel momento in cui i termini di servizio di YouTube vengano a cessare, tutti i diritti legali, gli obblighi e le responsabilit&agrave; di cui l'utente e YouTube abbiano&nbsp;beneficiato, o ai quali siano stati soggetti o per i quali &egrave; espressamente prevista la prosecuzione di durata indefinita, saranno inficiati da tale cessazione.</span></p>",
-                    "id": "3B10728E-0157-AC0F-8D5C-2E11F7653001",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "231.22",
-                    "width": "400.00",
-                    "height": "173.31",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "D8D096C6-4D2F-C087-B643-2EA1117F594E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "5F1B1109-4C4F-97E6-309E-2EA154BAC61D",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "182.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10pt;\">D.&nbsp;Qualora l&rsquo;utente intenda recedere dal suo contratto con YouTube lo potr&agrave; fare inviando una omunicazione per iscritto, oltre che a chiudere il suo&nbsp;account YouTube (Corretta)</span></p>",
-                    "id": "1AC13947-0A3D-F320-AE79-2E11F766AEBB",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "230.00",
-                    "width": "400.00",
-                    "height": "139.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "2957910C-27EC-5A9F-1548-F113D24BB74B",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "C5EB524E-621A-5BFA-6C2D-2E17A2A671E8",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "-4.32",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10pt;\">A.&nbsp;I Dati Personali del Cliente cancellati possono essere recuperati dal Cliente (ad esempio, dal &ldquo;cestino&rdquo;)</span></p>",
-                    "id": "EA589AB6-8DAE-CD0E-69AE-2E11F7660E6B",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-228.70",
-                    "width": "400.00",
-                    "height": "103.68",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "B6972240-AB43-8411-4A02-2EA0DCE339BA",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "20E49099-A908-0FEE-90C0-2EA18EBCF0CA",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "152.81",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10pt;\">B.&nbsp;YouTube dichiara e garantisce che l'uso del Servizio sia ininterrotto, tempestivo, sicuro o privo di errori.</span></p>",
-                    "id": "274F7D57-C1C4-9D82-D61E-2E11F76613BC",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-236.70",
-                    "width": "400.00",
-                    "height": "127.32",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "307287DB-C4EF-EC7A-B880-2EA0F8ABB4AC",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "2562FE78-B78C-E7B3-2EEC-2EA17B72EFAE",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "-133.15",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><strong><span style=\"font-size: x-large;\"><span class=\"Apple-style-span\" style=\"font-size: 17px; line-height: 20px;\">Selezionare la risposta corretta:</span></span></strong></p>\n<p style=\"text-align: center;\"><span style=\"font-size: x-large;\">&nbsp;</span></p>",
-                    "id": "A386E49B-0054-B2B6-0123-2E11F76651AC",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 4,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "1.33",
-                    "width": "950.01",
-                    "height": "61.38",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "107.00",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\">QUESITO 5</p>",
-                    "id": "26468BCB-3FA8-FAA2-2A8D-2E11F7672424",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.04",
-                    "top": "34.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:27.96",
-                    "width": "300.00",
-                    "height": "65.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "47C00C78-3451-9361-77FF-2E11F763D951"
-        },
-        "AF881154-2C53-C884-9EEA-2E7CB1684D4C": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "E50C8990-D894-99B0-91B9-F104B4169797",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "665D30FD-93AC-0432-ED92-2E7CE638D34A",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "9CFEF74A-88AE-67C6-0094-2E7CB16B2DBF"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 112.45,
-            "hideThumbnailInMindmap": false,
-            "y": 6.600000000000001,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Errore vero/falso 1",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "0A7A542C-9D05-26C6-9F51-2E7CB16A6E70",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Nell&rsquo;articolo 7.5 delle \"Condizioni per il Trattamento dei Dati da parte di YouTube&rdquo; si possono trovare le informazioni&nbsp;relative alle revisioni e audits:</p>\n<p><br />\"7. Sicurezza dei Dati</p>\n<p>[&hellip;]<br />7.5 Revisioni e Audits del Rispetto degli obblighi.<br />[&hellip;]<br />7.5.2 Diritti di Verifica del Cliente.<br />(a) Google consente al Cliente o ad un auditor terzo nominato dal Cliente di condurre audits (comprese delle ispezioni)<br />per verificare li rispetto da parte di Google dei suoi obblighi previsti dalle presenti Condizioni per il Trattamento dei Dati in&nbsp;conformit&agrave; con la Sezione 7.5.3 (Condizioni Commerciali Aggiuntive in caso di Audit). Google contribuisce a tali attivit&agrave; di<br />verifica come descritto nella Sezione 7.4 (Certificazione sulla Sicurezza) ed in questa Sezione 7.5 (Revisioni e Audits del&nbsp;Rispetto degli Obblighi).<br />[&hellip;]\"</p>\n<p>&nbsp;</p>\n<p>Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\">qui</a></p>",
-                    "id": "D2C52F73-928A-53EC-198F-2E7CB16AC7FA",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "AF881154-2C53-C884-9EEA-2E7CB1684D4C"
-        },
-        "F1836DE3-4BAE-E5E4-6D72-2D3BED45E0B5": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "55096CA0-121C-4358-DA0C-F0F82D45EE1E",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "3356C906-7D24-2B45-40E6-2D3BED49019C",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:02.47",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:28.53",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "CB013F07-9D0D-1BF5-C688-2D3BED479479"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": -351.85,
-            "hideThumbnailInMindmap": false,
-            "y": 377.4,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Risposta sbagliata D",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di riprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "354838F8-8DBE-FC26-44D8-2D3BED470717",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Per quanto riguarda i contenuti sul sito web di YouTube, nell&rsquo;articolo 9 dei &ldquo;Termini di Servizio&rdquo; di YouTube si trova:</p>\n<p><br />9. Contenuto di YouTube sul Sito web<br />9.1 Con l'eccezione dei Contenuti sottoposti nel Servizio dall&rsquo;utente, tutti gli altri Contenuti presenti sul Servizio sono, alternativamente, di propriet&agrave; di YouTube o concessi in licenza a&nbsp;YouTube, e sono oggetto di copyright, diritti di marchio e degli altri diritti di propriet&agrave; intellettuale di YouTube o dei licenzianti di YouTube. Qualsiasi marchio o marchio di servizio di<br />terzi presente sui Contenuti, non caricato n&eacute; pubblicato dall&rsquo;utente, resta un marchio o marchio di servizio dei rispettivi titolari. Tali contenuti non potranno essere scaricati, copiati,&nbsp;riprodotti, distribuiti, trasmessi, diffusi, visualizzati, venduti, concessi in licenza o in altro modo sfruttati per qualsiasi altra finalit&agrave; senza il previo consenso scritto di YouTube o, ove&nbsp;applicabile, dei licenzianti di YouTube. YouTube ed i suoi licenzianti si riservano tutti i diritti non espressamente concessi sui, e rispetto ai, loro Contenuti.</p>\n<p>&nbsp;</p>\n<p>Per il testo completo clicca&nbsp;<a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\">qui</a></p>",
-                    "id": "271A12E7-6DCF-7084-DC64-2D3BED47B7A4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.40",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.60",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "F1836DE3-4BAE-E5E4-6D72-2D3BED45E0B5"
-        },
-        "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98": {
-            "images": [
-                {
-                    "horizontalAlign": "center",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "045EA6B9-3DC8-B78B-2F6E-28DCF771246B",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.00",
-                    "top": "30.00",
-                    "dataend": "00:30.96",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:30.96",
-                    "centerX": "-1.00",
-                    "width": "237.00",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "53.00",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "1067DBD1-025B-CD0C-7C5E-F0EAC01D12F3",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "2C0DFA45-76B2-A6A9-7E4B-2938162BC21F",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.10",
-                    "dataend": "00:30.96",
-                    "bottom": "30.00",
-                    "zIndex": 0,
-                    "scales": false,
-                    "duration": "00:27.86",
-                    "centerX": "-0.00",
-                    "width": "160.00",
-                    "height": "40.00",
-                    "label": "Avvia",
-                    "id": "FF1148C6-EDB3-9AD8-F596-2937A5D7CA0B"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "large",
-            "hideTitleInMindmap": false,
-            "x": 682.9333333333334,
-            "hideThumbnailInMindmap": false,
-            "y": 370.8,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 29.964914082051347,
-            "color": "rgba(0,0,0,1)",
-            "title": "Home",
-            "texts": [
-                {
-                    "centerY": "0.00",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\">&nbsp;<span class=\"Apple-style-span\" style=\"line-height: 24px; font-size: 20px;\">Prima di iniziare, dovresti leggere i Termini di Servizio e la normativa sulla Privacy di Youtube. Puoi trovarli a questi link:</span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\">&nbsp;</span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\"><a title=\"ciao\" href=\"https://support.google.com/accounts/answer/7660719?hl=it\" target=\"_blank\">Visualizzare, controllare ed eliminare le informazioni dell'account</a></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\"><a href=\"https://www.youtube.com/static?gl=IT&amp;hl=it&amp;template=terms\" target=\"_blank\">Termini di Servizio</a></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\"><a href=\"https://policies.google.com/privacy?hl=it&amp;gl=it#infochoices\" target=\"_blank\">Norme sulla Privacy</a></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 15pt;\"><a href=\"https://www.youtube.com/t/terms_dataprocessing?gl=IT&amp;hl=it\" target=\"_blank\">Condizioni per il Trattamento dei Dati</a></span></p>\n<p>&nbsp;</p>",
-                    "id": "88485784-4F88-5855-0F55-28F0CCCE2A8C",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.00",
-                    "dataend": "00:30.96",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:28.97",
-                    "centerX": "0.00",
-                    "width": "591.00",
-                    "height": "240.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "159CE1D0-9532-B4C5-C0CF-F0E7CE9BFB98"
-        },
-        "C2C84ABB-EC51-A390-1D58-2E9CD639618C": {
-            "buttons": [
-                {
-                    "type": "klynt-button-1",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "B912C6BD-502C-1DF3-EB35-2E05C659C3FA",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "D58AE259-6521-EFE1-EFC4-2E9E3518D08F",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.57",
-                    "dataend": "00:31.00",
-                    "bottom": "35.00",
-                    "zIndex": 2,
-                    "scales": false,
-                    "duration": "00:27.43",
-                    "centerX": "0.00",
-                    "width": "154.00",
-                    "height": "38.00",
-                    "label": "Riprova",
-                    "id": "26065408-7F9A-BC78-6C4C-2E9CD63C27BA"
-                }
-            ],
-            "hideInMindmap": false,
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 1107.6,
-            "hideThumbnailInMindmap": false,
-            "y": -244.5,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Risposta sbagliata 2",
-            "texts": [
-                {
-                    "type": "txt-Paragraph",
-                    "text": "<p>Oops... Risposta Sbagliata. Forse un ripasso prima di tiprovare ti farebbe comodo. Dai un'occhiata!</p>",
-                    "id": "A7F7D12B-7330-F05C-AAE8-2E9CD63BD8E0",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.85",
-                    "top": "24.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.15",
-                    "centerX": "0.00",
-                    "width": "730.00",
-                    "height": "50.00",
-                    "name": "Text 1"
-                },
-                {
-                    "type": "txt-Paragraph",
-                    "text": "",
-                    "id": "935D15B8-B031-0C1A-F8FB-2E9CD63B97D0",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:01.69",
-                    "top": "85.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:29.31",
-                    "centerX": "0.00",
-                    "width": "751.00",
-                    "height": "331.00",
-                    "name": "Text 2"
-                }
-            ],
-            "id": "C2C84ABB-EC51-A390-1D58-2E9CD639618C"
-        },
-        "55096CA0-121C-4358-DA0C-F0F82D45EE1E": {
-            "images": [
-                {
-                    "right": "28.05",
-                    "src": "Medias/Photos/yt_logo_rgb_dark.png",
-                    "verticalAlign": "middle",
-                    "id": "F28F9EAA-F64A-CB79-8D23-2965E287F1CD",
-                    "horizontalAlign": "center",
-                    "databegin": "00:00.00",
-                    "top": "15.95",
-                    "dataend": "00:31.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "225.28",
-                    "mediaWidth": 794,
-                    "scaleMode": "zoom",
-                    "height": "48.73",
-                    "mediaHeight": 178,
-                    "name": "yt_logo_rgb_dark.png"
-                }
-            ],
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/yt_logo_rgb_dark.png.png",
-            "size": "medium",
-            "hideTitleInMindmap": false,
-            "x": 367.95,
-            "hideThumbnailInMindmap": false,
-            "y": 193.05,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Quiz 2",
-            "texts": [
-                {
-                    "centerY": "36.16",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10pt;\">C.&nbsp;YouTube sar&agrave; responsabile nei confronti dell'utente per la cancellazione di, corruzione di, o mancata&nbsp;memorizzazione, di Contenuti e altre comunicazioni di dati mantenuti o trasmessi da, o tramite, l'uso del&nbsp;Servizio (Corretta)</span></p>",
-                    "id": "A58F9AF9-8B84-14E7-42FE-F0F82D494A9B",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "228.67",
-                    "width": "400.00",
-                    "height": "139.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "E50C8990-D894-99B0-91B9-F104B4169797",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "66EF7E4D-E9E9-EBE4-1085-F1066ABE9AA7",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "182.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p><span style=\"font-size: 10pt;\">D.&nbsp;Google potr&agrave; aggiornare o modificare le Misure di Sicurezza di volta in volta, a condizione che tali</span><br /><span style=\"font-size: 10pt;\">aggiornamenti o modifiche non comportino un peggioramento della sicurezza generale dei Servizi del</span>&nbsp;<span style=\"font-size: 10pt;\">Responsabile</span></p>",
-                    "id": "19161A4E-9D12-099D-6050-F0F82D4AAA8D",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "228.67",
-                    "width": "400.00",
-                    "height": "139.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "F1836DE3-4BAE-E5E4-6D72-2D3BED45E0B5",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "93D783E1-D7B2-30C4-5E4A-0A9100729B99",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "47.00",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 9pt;\">A.&nbsp;Con l'eccezione dei Contenuti sottoposti nel Servizio dall&rsquo;utente, tutti gli altri Contenuti presenti sul Servizio&nbsp;sono, alternativamente, di propriet&agrave; di YouTube o concessi in licenza a YouTube, e sono oggetto di&nbsp;copyright, diritti di marchio e degli altri diritti di propriet&agrave; intellettuale di YouTube o dei licenzianti di YouTube</span></p>",
-                    "id": "A36A63B8-9B77-3A7E-4485-2982E809DF2A",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-230.00",
-                    "width": "400.00",
-                    "height": "160.99",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "D64DEE05-9E5F-31C9-A354-0A87F61D447A",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "385462C3-FE11-49E6-CD0B-2982E80BBB37",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "197.50",
-                    "rollOver": [
-                        {
-                            "value": "rgba(153,153,153,0.5)",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": true,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ],
-                    "type": "txt-Default",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12pt;\">B. I Termini potranno essere accettati semplicemente utilizzando il Servizio</span></p>",
-                    "id": "3DB22AEC-2AC7-735F-67F5-2981F69CE3D9",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-230.00",
-                    "width": "400.00",
-                    "height": "110.00",
-                    "link": {
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "hideInMindmap": false,
-                        "targetSequence": "60858F17-6A39-E725-45EB-2D3BD09527CB",
-                        "controlDX": 0,
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "635D79B8-FE9B-003C-1EE9-2981F69ECCD6",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "name": "Text 3",
-                    "rollOut": [
-                        {
-                            "value": "rgba(0,0,0,0)",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "background"
-                        }
-                    ]
-                },
-                {
-                    "centerY": "-103.50",
-                    "type": "txt-Paragraph",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 13pt;\"><strong>Indicare quale delle seguenti affermazioni NON rispetta i Termini di Servizio di Youtube:</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 13pt;\">(si ricorda che le Condizioni sul Trattamento dei Dati da parte di youtube operano come addendum al contratto tra te, \"Cliente\", e Google)</span></p>",
-                    "id": "B8FE2341-DF05-AD12-C02F-F0F82D4A7C8C",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:04.01",
-                    "dataend": "00:31.00",
-                    "zIndex": 4,
-                    "scales": true,
-                    "duration": "00:26.99",
-                    "centerX": "-0.00",
-                    "width": "870.00",
-                    "height": "120.01",
-                    "name": "Text 2"
-                },
-                {
-                    "left": "107.00",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\">QUESITO 2</p>",
-                    "id": "E0CD87D5-8FA6-1E05-9D0B-F0F82D4A7ADD",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:03.04",
-                    "top": "34.00",
-                    "dataend": "00:31.00",
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:27.96",
-                    "width": "300.00",
-                    "height": "65.00",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "55096CA0-121C-4358-DA0C-F0F82D45EE1E"
-        },
-        "2957910C-27EC-5A9F-1548-F113D24BB74B": {
-            "hideInMindmap": false,
-            "size": "large",
-            "hideTitleInMindmap": false,
-            "x": 992.5333333333334,
-            "hideThumbnailInMindmap": false,
-            "y": 373.3,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "title": "Hai vinto",
-            "texts": [
-                {
-                    "right": "178.13",
-                    "type": "txt-Title-1",
-                    "text": "<p>Ammazza che bravo! Beccati sto DIPLOMA</p>",
-                    "id": "70A66935-0EBB-F70C-14BF-F1174FB201E7",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "databegin": "00:00.00",
-                    "top": "168.82",
-                    "dataend": "00:31.00",
-                    "bottom": "215.34",
-                    "zIndex": 0,
-                    "scales": true,
-                    "duration": "00:30.00",
-                    "left": "178.12",
-                    "name": "Text 1"
-                }
-            ],
-            "id": "2957910C-27EC-5A9F-1548-F113D24BB74B"
-        }
-    },
-    "watermark": {
-        "displayOnStartSequence": true,
-        "enabled": false,
-        "position": "top-left",
-        "image": "Player/css/editor/img/watermark.png",
-        "action": {
-            "type": "openSequence",
-            "target": "null"
-        }
+        "keywords": null
     }
 }
